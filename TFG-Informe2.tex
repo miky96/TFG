@@ -85,40 +85,19 @@
 \blfootnote{$\bullet$ Treball tutoritzat per: Jordi Casas Roma (departament)}
 \blfootnote{$\bullet$ Curs 2018/19}
 
-\section{Objectius}
-\lettrine[lines=3]{L}{'objectiu} principal d'aquest treball és analitzar com ha augmentat la temperatura a la superfície terrestre al llarg dels anys. No obstant això, també es vol comparar aquestes temperatures amb altres dos paràmetres, per veure quina implicació tenen en l'augment. També es pot donar el cas que no es trobi cap relació entre aquests tres volums de dades. Concretament els dos volums de dades que s'analitzaran són:
-\begin{itemize}
-\item La quantitat de Co2 que ha produït cada país al llarg d’un any sencer. [1]
-\item La petjada ecològica mitjana de cada país al llarg de cada any. [2] Això és una forma de representar l'àrea de vegetació i/o aigua que es necessita per satisfer les necessitats d'una persona durant un any. [3] El conjunt de dades escollit agafarà una mitjana de totes les persones de cada país.   
-\end{itemize}
+\section{Evolució dels Objectius}
+\lettrine[lines=3]{L}{'objectiu} principal d'aquest treball segueix sent el mateix que el esmentat anteriorment, analitzar el canvi de temperatura al llarg dels anys. El que si que ha canviat són parametres amb els que es compararà la temperatura. Enlloc de fer-ho amb la petjada ecològica i les emisions de Diòxid de Carboni (CO$_2$), com s'havia plantejat en un inici, es farà amb les emisions de tres gasos hivernacles. També s'ha decidit reduïr l'area d'on s'agafaran les dades, enlloc de fer-ho de tota la Terra es focalitzarà en el continent d'Europa, concretament en els països dins de la Unió Europea.
 
-Aquests objectius van enfocats a aprendre a processar diferents Datasets, aconseguint un que estigui destinat a entrenar un algorisme de Machine Learning. Aquest algorisme ha d'acabar sent capaç de predir les tendències en la temperatura a cada país. Per tant, un altre objectiu serà entendre com es pot entrenar un algorisme i extreure els resultats que pugui treure. Com a objectiu addicional es vol fer aquest anàlisis amb diversos algorismes per poder fer una comparativa de l'efectivitat i ràtio d'encert de cada un d'ells.
+El primer canvi s'ha decidit després d'analitzar els \textit{DataSets} amb més detall i veure que tenia més sentit comparar els canvis de temperatura amb les principals causes que podien provocar-los. Per tant s'ha decidit agafar només les dades sobre les emisions de  CO$_2$, les de Metà (N$_2$O) i les de  La comparació inicial també complicava bastant el treball,degut a la complexitat de les fòrmules i conceptes involucrats en el \textit{DataSet} de  la petjada ecològica. Com el treball està enfocat en el tractament de les dades i al seu anàlisi, s'ha trobat més coherent agafar conceptes menys complicats per  poder dedicar més temps en el seu processament. 
 
-\section{Planificació}
-Tal com es mostra en el diagrama de Gantt de la Figura 1, aquest TFG té diverses fases bastant ben diferenciades. Aquestes són:
-\begin{itemize}
-\item Una primera fase de recerca: Aquí cal investigar si s'han fet treballs semblants al del TFG, ja sigui sobre el canvi climàtic, sobre processament de datasets. També cal fer una recerca sobre quins algorismes de Machine Learning caldrà entrenar i com entrenar-los, a causa del gran nombre d'algorismes existents. Cal mirar l'estat de l'art, a més d'aprofitar-lo per aprendre les millors tècniques a aplicar i com aplicar-les als datasets escollits.
+El segon té una justificació semblant, agafant els països dins de la Unió Europea s'obtenen unes 22000 files d'informació i agafar més països hagués produït un augment del temps d'entrenament de l'algorisme Això causaria una extensió de la planificació. Com s'ha esmentat anteriorment, com l'objectiu es dins de l'àmbit informàtic, hi ha suficient amb un gruix de dades de més de 20000 files per asolir-lo, per tant es descartaran la resta de països. A més a Europa hi ha una combinació de països curiosa, ja que hi ha alguns que han reduït dràsticament les emisions mentres d'altres que les han anat pujant o mantingut al llarg dels anys. 
 
-\item La segona va destinada al processament dels Datasets. Tot i que els datasets escollits tenen les dades netejades, cada un té columnes diferents i fins i tot algun dataset té dades de períodes temporals que altres no tenen. La idea bàsica és seleccionar les columnes i files més rellevants per la investigació que es vol fer i solucionar algun problema en la compatibilitat de les dades. Un exemple de problema a solucionar ve donat pel Dataset de les temperatures. Aquest Dataset et diu les temperatures mitjanes al llarg dels anys de moltes ciutats arreu del món, però no dels països. En canvi els altres dos datasets tracten de les emissions en cada país i no de les ciutats. En acabar es tindrà un únic dataset amb les dades més rellevants en un període de temps determinat, en principi es vol agafar les dades entre l'any 1990 i el 2013.
+\section{ Evolució de la Planificació}
+La planificació s'està seguint tal com es va acordar. Hi ha un retard daproximadament una setmana degut a que no es va considerar la redacció dels informes, a la figura 1 es mostra el Diagrama de Gantt actualitza't amb les tasques dels informes afegides. 
 
-\item La tercera agafa el dataset resultant de la fase anterior i l'utilitza per entrenar un algorisme de Machine Learning. Aquest algorisme s'escollirà al llarg de la primera i segona fase segons els tipus de dades que s'acabin analitzant. No es destinarà el 100\% del dataset pel fet que es reservarà una part per comprovar si l'algorisme funciona correctament. Concretament es té pensat destinar un 80\% a l'entrenament i un 20\%  per les comprovacions posteriors.
+\section{Evolució de la Metodologia}
 
-\item La quarta fase acabarà sent la representació dels resultats que s'hauran extret de l'algorisme, ja sigui a partir de gràfics estadístics, diagrames o gràfics lineals. També es farà una reflexió sobre el bon o mal funcionament de l'algorisme i es trauran conclusions.
-
-\item Hi ha una última fase que només es farà si hi ha suficient temps. Aquesta consistirà a repetir la tercera i la quarta amb diferents algorismes i després comparar els resultats que extreu cada un. Posteriorment es farà una anàlisi de les característiques de cada un com l'eficiència, la dificultat d'entrenar-lo o el percentatge d'error de cada un.
-
-\end{itemize}
-Totes aquestes fases s'aniran documentant per tal d'anar fent l'informe final i com es pot veure en el diagrama es té pensat deixar bastant de temps per poder acabar l'informe i/o tenir marge per si apareixen situacions inesperades o complicacions.
-
-\section{Metodologia}
-A l'hora de fer projectes hi ha un gran nombre de metodologies per escollir, però en l'àmbit de la informàtica les més utilitzades són les Agile. Això és degut a l'increment del nombre de projectes àgils acabats en èxit, respecte dels projectes on s'han aplicat les metodologies tradicionals. [2] Dins de la metodologia àgil hi ha diverses metodologies com Scrum, Kanban, XP... En aquest treball se seguirà la Kanban, a causa del fet que la metodologia Scrum no es podria aprofitar al màxim amb només una persona en el projecte. La principal raó per no escollir Scrum ha estat que molts papers els hauria de fer la mateixa persona, com el de Scrum Master, Product Owner... Algunes de les principals característiques no tindrien sentit. [3]
-
-Kanban es basa en una taula de progrés on es fiquen les tasques per fer, les que s'estan fent i les fetes. Això permetrà un seguiment constant de com avança el projecte. També permet treballar segons prioritats, no per temps, i això s'ajusta molt bé al tipus de projecte que es desenvoluparà. Degut al fet que el projecte està format per tasques que es poden paral·lelitzar, i d'altres que no es poden fer sense una prèvia, apareixeran prioritats al llarg del desenvolupament. [4]
-
-La fase del projecte destinada a l'anàlisi dels datasets es farà utilitzant el software d'Apache Spark a partir de Databricks. S'ha escollit Databricks perquè ofereix un petit clúster amb 6Gb de Ram gratuïtament per estudiants, uns recursos més que suficients per processar el volum de dades desitjat.
-A part d'això, tot el progrés de cada etapa s'anirà guardant en un Git per tal de no perdre res i poder mantenir un històric dels canvis. En el Git es guardarà els informes, els codis i algorismes necessaris i els datasets amb les dades.
-Per acabar, els codis es faran en el llenguatge de Python. Aquest llenguatge és molt utilitzat a l'hora de treballar amb algorismes de Machine Learning. A més, s'utilitzaran algorismes de la pàgina web de Scikit Learn, a causa de la gran varietat d'algorismes que ofereix i a la facilitat d'implementar-los. [8] 
-
+\section{Preprocessament de dades}
 
 \begin{thebibliography}{11}
 \bibitem{1}
