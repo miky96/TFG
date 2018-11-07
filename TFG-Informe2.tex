@@ -93,11 +93,18 @@ El primer canvi s'ha decidit després d'analitzar els \textit{DataSets} amb més
 El segon té una justificació semblant, agafant els països dins de la Unió Europea s'obtenen unes 22000 files d'informació i agafar més països hagués produït un augment del temps d'entrenament de l'algorisme Això causaria una extensió de la planificació. Com s'ha esmentat anteriorment, com l'objectiu es dins de l'àmbit informàtic, hi ha suficient amb un gruix de dades de més de 20000 files per asolir-lo, per tant es descartaran la resta de països. A més a Europa hi ha una combinació de països curiosa, ja que hi ha alguns que han reduït dràsticament les emisions mentres d'altres que les han anat pujant o mantingut al llarg dels anys. 
 
 \section{ Evolució de la Planificació}
-La planificació s'està seguint tal com es va acordar. Hi ha un retard daproximadament una setmana degut a que no es va considerar la redacció dels informes, a la figura 1 es mostra el Diagrama de Gantt actualitza't amb les tasques dels informes afegides. 
+La planificació s'està seguint tal com es va acordar al informe inicial. Hi ha un retard d'aproximadament una setmana, degut a que no es va considerar la redacció dels informes. A la figura 1 es mostra el Diagrama de Gantt actualitza't amb les tasques dels informes afegides. 
 
 \section{Evolució de la Metodologia}
-
+A la figura 2 es pot veure com s'ha applicat el mètode Kanban en aquesta primera tasca. S'ha decidit seguir la metodologia per cada fase i no de tot el projecte a la vegada. Així es pot mantenir un seguiment més concís de les tasques de cada una de les fases. Per fer-ho simple s'han creat tres columnes de tasques: Les que s'han de fer, les que s'estàn fent i les que estàn fetes. Així es pot veure tota la feina feta i la que queda per fer i planejar-se segons avanci el projecte. També es pot veure el repositori on de moment nomès hi ha penjat els arxius dels informes, fonts d'informació i els \textit{DataSets}. Això és degut a que tot el codi s'ha escrit per la interfície on-line de DataBricks, el qual ja té un repositori incorporat, i s'ha trobat innecessari replicant els commits que es feien al repositori local.
 \section{Preprocessament de dades}
+Per començar es va importar els dos \textit{DataSets} des del seu csv corresponent:
+\begin{itemize}
+\item El primer està  està format de quatre columnes, tal com es mostra a la taula 1 hi ha una amb la data, en format String amb dies mesos i anys. El segon valor es la temperatura mesurada amb un marge d'error del 95\%, serà el valor que es donarà per vàlid al llarg del treball. El tercer es el marge d'error que pot tenir la temperatura de la segona columna i l'última el nom del país al que s'està mesurant les temperatures.
+%taula1
+\item El segon està composat per les mateixes columnes. Com es pot veure a la taula 2 es bastant semblant a l'anterior. La primera es el nom del país on s'està mesurant, la segona es l'any on s'ha mesurat, aquest cop en format de enter. En la tercera tenim el valor de la mitjana de Kilotones de gas produït per capita en el país i en l'última tenim el tipus de gas que s'ha mesurat.
+%taula2  
+\end{itemize}
 
 \begin{thebibliography}{11}
 \bibitem{1}
