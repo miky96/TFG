@@ -73,10 +73,10 @@
 \parbox{0.915\textwidth}
 {\sffamily
 \textbf{Resum--}
-Resum del projecte, màxim 10 línies
+L'emisió de gasos Al llarg del temps s'han fet múltiples estudis demostrant i explicant que el canvi climàtic es un fet i que cal actuar d'immediat pero encara hi ha molta gent reticent a admetre que existeix aquest canvi climàtic. Aquest treball es un altre intent de demostrar que aquest fet existeix i ho fa aplicant tècniques de Machine Learning i Big Data, per tal de relacionar aquest augment de la temperatura amb el seu principal causant, els gasos hivernacle produits per l'èsser humà.
 \\
 \\
-\textbf{Paraules clau-- } Paraules clau del treball, màxim 2 línies \\
+\textbf{Paraules clau-- } Aprenentatge Computacional, Conjunt de dades, màxim 2 línies \\
 \\
 %\end{abstract}
 %\bigskip
@@ -86,7 +86,7 @@ Resum del projecte, màxim 10 línies
 \textbf{Abstract--} Versió en anglès del resum 
 \\
 \\
-\textbf{Keywords-- } Versió en anglès de les paraules clau \\
+\textbf{Keywords-- } Machine Learning, DataSet \\
 }
 
 \bigskip
@@ -103,10 +103,22 @@ Resum del projecte, màxim 10 línies
 
 \blfootnote{$\bullet$ E-mail de contacte: m.freixes.faya@gmail.com}
 \blfootnote{$\bullet$ Menció realitzada: Tecnologies de la Informació}
-\blfootnote{$\bullet$ Treball tutoritzat per: Jordi Casas Roma (departament)}
+\blfootnote{$\bullet$ Treball tutoritzat per: Jordi Casas Roma (DEIC)}
 \blfootnote{$\bullet$ Curs 2018/19}
-\section{Objectius}
+\section{Introducció}
+\lettrine[lines=3]{E}{n} els últims anys la temperatura de la Terra no ha parat d'augmentar en la gran majoria de la seva superfície, efecte resultant del canvi climàtic. Alguns estudis demostren que des del 1980 hi ha hagut un increment d'1ºC en la temperatura de tota la Terra. Encara que 1ºC no sembli significant s'ha de contextualitzar, cal incidir en el fet de que s'està parlant sobre tota la superficie terrestre, inclosos oceans, per tant que augmenti 1ºC significa que el canvi de temperatura s'ha vist reflectit en l'aigua, els pols, els deserts... Les consequencies d'això ja s'estant fent evidents en molts indrets, hi ha desertificació en molts països, els pols s'estan desfent a un ritme alarmant... 
 
+S'ha demostrat innomerables cops que aquests fets tenen diferents causes que els originen i que una de les més preocupants es la contaminació produida pels essers humans. Dins d'aquesta contaminació tenen un paper molt important les emisions dels gasos hivernacle. Aquests gasos sempre han estat presents en l'atmosfera, pero des de la revolució industrial la seva presencia en l'atmosfera s'ha vist incrementada enormement. Això provoca que les radiacions solars travessin l'atmosfera i que la superficie les absorbeixi. Actualment hi ha molts estudis sobre aquestes emisions i hi ha moltes dades de sensors que han anat registrant les emisions de cada país al llarg dels anys. Al mateix temps, hi ha associacions 
+
+Aquest document està dividit en diverses seccions. A la secció 2 s'expliquen els objectius del treball. A la 3a secció s'explica l'estat de l'art sobre les tècniques de Machine Learning i en la 4a la metodologia que s'ha seguit al llarg del treball. Per acabar a la 5a secció està explicat el desenvolupament, seguidament de l'anàlisis de resultats a la secció 6. Per acabar a la secció 7 es troben les conclusions i a la 8a secció hi ha les propostes per futurs treballs.   
+\section{Objectius}
+L'objectiu principal d'aquest treball és analitzar el comportament de diferents algorismes, de Machine Learning (ML), a l'hora de predir la temperatura d'un país a partir de les seves emissions de gassos hivernacle. Aquest objectiu es limitarà als països del continent d'Europa i al periode composat entre els anys del 1990 al 2013. L'objectiu principal es pot desglosar en diferents subobjectius que s'han d'aconseguir per arribar a satisfer-lo:
+\begin{itemize}
+\item Crear un DataSet que relacioni els països amb les seves temperatures i les seves emisions a partir de dades extretes de fonts fiables i lliures de drets. Aquest ha de tenir les suficients dades per poder entrenar els algorismes de ML apropiadament .
+\item Analitzar quins son els algorismes de ML més utilitzats actualment en problemes de regressió i implementar-los correctament.
+\item Trobar la millor configuració de cada un d'ells aplicant mètodes utilitzats en Big Data, com el GridSearch o el RandomizedSearch.
+\item Poder determinar el millor algorisme dels diversos seleccionats i poder extreure els diferents resultats de forma gràfica i entenedora.     
+\end{itemize}
 \section {Estat de l'art}
 
 \section {Metodologia}
@@ -168,25 +180,27 @@ Aquesta fase s'ha centrat a provar diferents algorismes de regressió de la llib
 	\caption{Temperatures }
 	\label{fig-tempAustria}
 \end{figure}
+
 A més d'analitzar el \textit{DataSet} també ha estat necessari passar els països a dades numèriques, ja que Scikit-Learn no permet \textit{Strings} per entrenar els seus algorismes [2]. Aquesta acció s'havia de fer d'una manera que no convertís les variables en categòriques, és a dir, que l'algorisme no entengués que ser d'un país o d'un altre tenia una relació numèrica. Per fer-ho s'ha utilitzat un mètode de la mateixa llibreria de SciKit-Learn que transforma els \textit{String} en variables binàries, per tant si és d'un país, serà un 1 i si no ho és, serà 0.
 
 Un cop sabent que el \textit{DataSet} era adequat per fer aquestes anàlisis, s'ha començat a escollir i entrenar diversos algorismes de regressió. Els algorismes de regressió són tasques d'aprenentatge inductiu [2]. Es diferencien en les tasques de classificació a causa del fet que en la regressió es prediuen valors numèrics, en canvi en la classificació es prediuen etiquetes de classe. La tasca de regressió consisteix en l'assignació de variables sobre un domini donat, aquestes variables estan descrites per atributs discrets. A partir d'aquest conjunt de dades, els algorismes de regressió assignen valors numèrics a instàncies d'aquest domini amb la finalitat d'aconseguir una aproximació a partir de valors que es donen~[3].
 
 Dins de la regressió s'ha decidit agafar un conjunt de mètodes que es considerin dins de l'estat de l'art actual en temes de \textit{Machine Learning} (ML).
-\begin{itemize}
-\item \textbf{Arbres de Decisió:} Els arbres de decisió són models predictius no linears que serveixen per fer tasques de regressió i tasques de classificació. La idea és simple, si es vol predir una classe o resposta Y a partir d'entrades X cal fer créixer un arbre binari. En els nodes d'aquest arbre binari s'aplica un test sobre l'input que es consideri més rellevant, per exemple en la figura 2 es comença preguntant sobre la contaminació de CO$_2$. En aquest test es fa una pregunta binària de si o no, si la resposta és si es passarà al fill de la dreta, si la resposta és no, es passarà al fill de l'esquerra. A partir d'aquí es van fent tests en cada un dels nodes, l'input que s'agafa per formular la pregunta pot variar segons les dades que s'estiguin treballant. Com es mostra a la figura 2 si s'envà cap a l'esquerra, es passa a testejar l'input de les emissions de CH$_4$. A la figura també es pot observar com les prediccions sobre quina és la temperatura final s'acaben fent en arribar a les fulles de l'arbre. Aquestes prediccions vénen donades pel conjunt de totes les preguntes que s'han anat formulant en els seus antecessors [4].
+
+\subsubsection{Arbres de Decisió:} Els arbres de decisió són models predictius no linears que serveixen per fer tasques de regressió i tasques de classificació. La idea és simple, si es vol predir una classe o resposta Y a partir d'entrades X cal fer créixer un arbre binari. En els nodes d'aquest arbre binari s'aplica un test sobre l'input que es consideri més rellevant, per exemple en la figura 2 es comença preguntant sobre la contaminació de CO$_2$. En aquest test es fa una pregunta binària de si o no, si la resposta és si es passarà al fill de la dreta, si la resposta és no, es passarà al fill de l'esquerra. A partir d'aquí es van fent tests en cada un dels nodes, l'input que s'agafa per formular la pregunta pot variar segons les dades que s'estiguin treballant. Com es mostra a la figura 2 si s'envà cap a l'esquerra, es passa a testejar l'input de les emissions de CH$_4$. A la figura també es pot observar com les prediccions sobre quina és la temperatura final s'acaben fent en arribar a les fulles de l'arbre. Aquestes prediccions vénen donades pel conjunt de totes les preguntes que s'han anat formulant en els seus antecessors [4].
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=0.5\textwidth]{../img/arbreDecisioSimple}
 	\caption{Arbre de Decisió Bàsic}
 	\label{fig-DecisionTree}
 \end{figure}
+
 Quan hi ha molts inputs a l'hora d'entrenar l'arbre de decisió, el mateix arbre ha d'escollir quin paràmetre dels inputs cal avaluar primer. Una mala elecció d'aquest input pot comportar que es comenci a fer comprovacions innecessàries, causant un impacte negatiu en l'eficiència de l'entrenament. L'arbre de decisió fa aquesta elecció a partir d'una recerca mitjançant la força bruta, en aquesta s'intenta buscar quina és la pregunta que pot aportar més informació de cara als següents nodes. Aquesta decisió la fa en cada un dels nodes i va variant fins a arribar a una fulla. Si en aquesta recerca es trobessin dues preguntes sobre dos inputs, que donen la mateixa quantitat d'informació, l'arbre escull una arbitràriament [4].
 
 Per acabar, els arbres de decisions tenen molts paràmetres editables com la seva longitud màxima, el nombre màxim de fulles, el mínim nombre de paràmetres per considerar el node com una fulla... La majoria d'aquests paràmetres limiten el creixement de l'arbre, ja que per defecte creix fins a fer totes les preguntes possibles. Aquests paràmetres són molt importants en l'obtenció de bons resultats, parar el creixement d'un arbre, en una profunditat equivocada, pot fer que l'arbre acabi descartant gran part d'informació, ja que no tots els nodes donen la mateixa quantitat d'informació a l'arbre[4].
-\item \textbf{Support Vector Machines:}
+\subsubsection{Support Vector Machines:}
 Support Vector Machines o SVM és un mètode d'aprenentatge supervisat que es poden utilitzar per a la classificació i la regressió. Aquest té com a objectiu principal definir una funció f(x) que tingui com a molt una desviació o error per sota d'un límit establert en la creació del mètode. Per exemple, si s'estableix un error igual a 1, es descartaran tots els objectius amb un error superior a 1, i es consideraran tots els que tinguin un valor inferior. El SVM treballa amb productes sobre punts dins de dimensions definides, això troba les familiaritats entre dos vectors. SVM tenen un paràmetre essencial anomenat kernel, bàsicament són un conjunt de fórmules matemàtiques que defineixen com es processarà les dades que entren com a inputs. Els kernels són els encarregats de modificar el producte de punts establert pel SVM i adaptar-lo al seu espai. Per defecte el SVM té com a kernel el lineal, que limita el producte de punts original en dues dimensions. Si en lloc del lineal s'utilitzes un kernel com el polinòmic, aquest espai acceptaria també combinacions polinòmiques fins a certs graus, aconseguint fer paràboles [5]. A més d'aquests dos, hi ha un de molt utilitzat anomenat Radial Basis Function o RBF. Aquest utilitza un espai limitat per distribucions Gaussianes, en la majoria d'ocasions aquest kernel és el que pot arribar a obtenir els millors resultats [6].
-\item \textbf{Random Forest:}
+\subsubsection{Random Forest:}
 El Random Forest és un dels mètodes de ML que s'està utilitzant més en l'actualitat, com els altres dos, es pot utilitzar tant per classificació com per regressió. La idea principal del Random Forest és la combinació de molts arbres de decisió iguals relacionats entre ells, això ho fa gràcies al fet que es basa en la idea que la combinació de molts algoritmes iguals aconsegueix millors resultats que un de sol molt potent. Com es pot veure a la figura 3, que representa un Random Forest amb dos arbres, el mètode crea dos arbres de decisió i després combina els resultats de cada un d'ells mitjançant el Bagging Method o un altre algoritme segons la implementació que s'esculli [7].
 
 Aquest mètode té pràcticament els mateixos paràmetres que un arbre de decisió però amb petites diferències que optimitzen cada una de les decisions preses per l'arbre. Com s'ha dit anteriorment els arbres necessiten escollir quina pregunta s'ha de fer en cada node per aconseguir informació a l'hora de separar les variables, el Random Forest modifica aquesta elecció. En lloc d'escollir la millor opció de totes agafa un subconjunt dels inputs que arriben al node i escull la millor dins d'aquest subconjunt [8]. El Random Forest permet editar molts paràmetres entre els quals destaquen el nombre d'arbres de decisió que es combinaran, el nombre d'inputs que s'inclouran en el subconjunt aleatori, també es pot escollir tots els paràmetres per editar els arbres de decisió o fins i tot l'algorisme que combinarà els seus resultats.
@@ -196,7 +210,8 @@ Aquest mètode té pràcticament els mateixos paràmetres que un arbre de decisi
 	\caption{Random Forest amb 2 arbres}
 	\label{fig-RandomForest}
 \end{figure}
-\end{itemize}
+\subsubsection{Xarxes Neuronals}
+\subsubsection{SearchCV}
 D'aquests algorismes s'ha fet un entrenament amb els paràmetres per defecte marcats per la llibreria de Scikit-Learn i després s'ha utilitzat dues tècniques, molt utilitzades en l'àmbit del ML per trobar el conjunt de paràmetres més òptim per cada algorisme. Aquestes tècniques tenen com a objectiu esprémer al màxim els algorismes i aconseguir l'aproximació més precisa de la temperatura. Aquestes tècniques han estat:
  \begin{itemize}
 \item \textbf{Grid SearchCV:} )Implementa una recerca exhaustiva dels paràmetres editables d'un mètode de predicció. Un cop fet aquest anàlisis entrena l'algorisme amb la millor combinació de paràmetres que ha trobat. Amb cada una de les combinacions fa 3 iteracions i després utilitza una fórmula per avaluar el resultat obtingut, aquest pot ser el Mean Absolute Error o MAE, Mean Squared Error [9]... Les iteracions dels paràmetres les fa en ordre ascendent, comença pels paràmetres més petits i va augmentant-los fins al límit que se l'hi ha establert.
@@ -224,7 +239,12 @@ Com a idees per continuar aquest TFG es podria fer la mateixa anàlisi de les da
 	\label{fig-temps}
 \end{figure}
 \section {Conclusions}
+
+\section{Treball Futur}
+
 \begin{thebibliography}{11}
+\bibitem{1}
+\url{https://earthobservatory.nasa.gov/world-of-change/DecadalTemp}
 \bibitem{1}
 ``Climate Change: Earth Surface Temperature Data”, \textit{Berkeley Earth}. [En línia]. Disponible a: \url{ https://www.kaggle.com/unitednations/international-greenhouse-gas-emissions}. [Accedit Novembre 9, 2018].
 \bibitem{2}
