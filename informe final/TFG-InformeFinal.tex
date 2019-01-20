@@ -73,7 +73,7 @@
 \parbox{0.915\textwidth}
 {\sffamily
 \textbf{Resum--}
-L'emisió de gasos hivernacle per part de la humanitat ha estat afectant negativament les temperatures del planeta i augmentant l'efecte del canvi climatic. L'impacte es tant elevat que cada cop hi ha temperatures més elevades, més desertificacions, augment del nivell del mar... Al llarg del temps s'han fet múltiples estudis demostrant i explicant que el canvi climàtic es un fet i que cal actuar d'immediat, pero encara hi ha molta gent reticent a admetre que existeix aquest canvi climàtic o que té relació amb l'humanitat. Aquest treball es un altre intent de demostrar que aquest fet existeix i ho fa aplicant tècniques de Machine Learning i Big Data per tal de relacionar aquest augment de la temperatura amb una de les seves causes principals,  l'emisioó de gasos hivernacle per part de l'èsser humà.
+L'emisió de gasos hivernacle per part de la humanitat ha estat afectant negativament les temperatures del planeta i augmentant l'efecte del canvi climatic. L'impacte es tant elevat que cada cop hi ha temperatures més elevades, més desertificacions, augment del nivell del mar... Al llarg del temps s'han fet múltiples estudis demostrant i explicant que el canvi climàtic es un fet i que cal actuar d'immediat, pero encara hi ha molta gent reticent a admetre que existeix aquest canvi climàtic o que té relació amb l'humanitat. Aquest treball es un altre intent de demostrar que aquest fet existeix i ho fa aplicant tècniques de \textit{Machine Learning} i \textit{Big Data} per tal de relacionar aquest augment de la temperatura amb una de les seves causes principals, l'emisisó de gasos hivernacle per part de l'èsser humà.
 \\
 \\
 \textbf{Paraules clau-- } Aprenentatge Computacional, Conjunt de dades, màxim 2 línies \\
@@ -83,7 +83,7 @@ L'emisió de gasos hivernacle per part de la humanitat ha estat afectant negativ
 %\begin{abstract}
 \bigskip
 \\
-\textbf{Abstract--} The release of greenhouse gases by the humanity it is influencing in a negative way the temperatures of the planet and increasing the effect of the climate change. The magnitude of this impact is such that the temperatures are constantly increasing, there is more desertification, the level of the sea is increasing... Over time there has been  
+\textbf{Abstract--} The release of greenhouse gases by the humanity it is influencing in a negative way the temperatures of the planet and increasing the effect of the climate change. The magnitude of this impact is such that the temperatures are constantly increasing, there is more desertification, the level of the sea is increasing... Over time there has been multiple studies proving and explaining that climate change is a fact and that we have to act against as soon as possible. But there are people that still don't believe in the existence of it or how this can be relate it with humanity. This project is another chance to demonstrate that climate change exists, to do it applies teh techniques of Machine Learning and Big Data in order to link the incrase of the temperatures with one of the main causes, the release of greenhouse gases by the human being.
 \\
 \\
 \textbf{Keywords-- } Machine Learning, DataSet \\
@@ -106,7 +106,7 @@ L'emisió de gasos hivernacle per part de la humanitat ha estat afectant negativ
 \blfootnote{$\bullet$ Treball tutoritzat per: Jordi Casas Roma (DEIC)}
 \blfootnote{$\bullet$ Curs 2018/19}
 \section{Introducció}
-\lettrine[lines=3]{E}{n} els últims anys la temperatura de la Terra no ha parat d'augmentar en la gran majoria de la seva superfície, efecte resultant del canvi climàtic. Alguns estudis demostren que des del 1980 hi ha hagut un increment d'1ºC en la temperatura de tota la Terra. Encara que 1ºC no sembli significant s'ha de contextualitzar, cal incidir en el fet de que s'està parlant sobre tota la superficie terrestre, inclosos oceans, per tant que augmenti 1ºC significa que el canvi de temperatura s'ha vist reflectit en l'aigua, els pols, els deserts... Les consequencies d'això ja s'estant fent evidents en molts indrets, hi ha desertificació en molts països, els pols s'estan desfent a un ritme alarmant... 
+\lettrine[lines=3]{E}{n} els últims anys la temperatura de la Terra no ha parat d'augmentar en la gran majoria de la seva superfície, efecte resultant del canvi climàtic. Alguns estudis demostren que des del 1980 hi ha hagut un increment d'1ºC en la temperatura de tota la Terra [1]. Encara que 1ºC no sembli significant s'ha de contextualitzar, cal incidir en el fet de que s'està parlant sobre tota la superficie terrestre, inclosos oceans, per tant que augmenti 1ºC significa que el canvi de temperatura s'ha vist reflectit en l'aigua, els pols, els deserts... Les consequencies d'això ja s'estant fent evidents en molts indrets, hi ha desertificació en molts països, els pols s'estan desfent a un ritme alarmant... 
 
 S'ha demostrat innomerables cops que aquests fets tenen diferents causes que els originen i que una de les més preocupants es la contaminació produida pels essers humans. Dins d'aquesta contaminació tenen un paper molt important les emisions dels gasos hivernacle. Aquests gasos sempre han estat presents en l'atmosfera, pero des de la revolució industrial la seva presencia en l'atmosfera s'ha vist incrementada enormement. Això provoca que les radiacions solars travessin l'atmosfera i que la superficie les absorbeixi. Actualment hi ha molts estudis sobre aquestes emisions i hi ha moltes dades de sensors que han anat registrant les emisions de cada país al llarg dels anys. Al mateix temps, hi ha molts conjunts de dades sobre les temperatures mitjanes mensuals de cada país des de fa anys. Es podria trobar alguna relació entre les emisions de gasos hivernacle i les temperatures per poder predir les temperatures dels proxims anys? A partir de les emisions i diverses temperatures anteriors, un algorisme pot predir les temperatures dels proxims mesos?
 
@@ -214,7 +214,7 @@ Aquest mètode té pràcticament els mateixos paràmetres que un arbre de decisi
 \subsubsection{SearchCV}
 D'aquests algorismes s'ha fet un entrenament amb els paràmetres per defecte marcats per la llibreria de Scikit-Learn i després s'ha utilitzat dues tècniques, molt utilitzades en l'àmbit del ML per trobar el conjunt de paràmetres més òptim per cada algorisme. Aquestes tècniques tenen com a objectiu esprémer al màxim els algorismes i aconseguir l'aproximació més precisa de la temperatura. Aquestes tècniques han estat:
  \begin{itemize}
-\item \textbf{Grid SearchCV:} )Implementa una recerca exhaustiva dels paràmetres editables d'un mètode de predicció. Un cop fet aquest anàlisis entrena l'algorisme amb la millor combinació de paràmetres que ha trobat. Amb cada una de les combinacions fa 3 iteracions i després utilitza una fórmula per avaluar el resultat obtingut, aquest pot ser el Mean Absolute Error o MAE, Mean Squared Error [9]... Les iteracions dels paràmetres les fa en ordre ascendent, comença pels paràmetres més petits i va augmentant-los fins al límit que se l'hi ha establert.
+\item \textbf{Grid SearchCV:} Implementa una recerca exhaustiva dels paràmetres editables d'un mètode de predicció. Un cop fet aquest anàlisis entrena l'algorisme amb la millor combinació de paràmetres que ha trobat. Amb cada una de les combinacions fa 3 iteracions i després utilitza una fórmula per avaluar el resultat obtingut, aquest pot ser el Mean Absolute Error o MAE, Mean Squared Error [9]... Les iteracions dels paràmetres les fa en ordre ascendent, comença pels paràmetres més petits i va augmentant-los fins al límit que se l'hi ha establert.
 \item \textbf{Randomized SearchCV:} És un mètode molt semblant al Grid Search. També fa una recerca sobre els millors paràmetres que aconsegueixin treure el millor resultat del mètode. La principal diferència és que en lloc de fer-ho de forma iterativa i ascendent ho fa de forma iterativa però aleatòriament. Això permet que es puguin provar valors molt elevats sense necessitat de què la recerca augmenti exponencialment el temps necessari per acabar [10].
 \end{itemize}
 \section{Resultats}
@@ -231,7 +231,7 @@ Veient les comparacions amb les temperatures reals de la figura 5 es pot veure c
 
 Aquests resultats són molt bons a causa del fet que l'error és bastant baix, considerant que la temperatura varia d'un any per l'altre entre 2 i 4 graus. No obstant això, els dos mètodes tenen un comportament una mica diferent a l'hora de fer prediccions. El Random Forest manté bastant la constància amb les temperatures que no varien massa, en canvi sí que falla bastant quan hi ha un canvi brusc de temperatura. Per l'altra banda els Decision Tree fallen en la gran majoria de prediccions però amb un error baix en tots ells, això fa que el MAE d'ambdós sigui molt semblant, encara que el Random Forest acabi tenint un més baix.
 
-Com a idees per continuar aquest TFG es podria fer la mateixa anàlisi de les dades però en un àmbit mundial en lloc d'Europeu. Segurament els resultats siguin encara millors gràcies a un nombre més gran de dades a analitzar. Una altra possible continuació pot ser l'increment d'algorismes de ML amb els que analitzar les dades, ja que en aquest treball s'han obviat alguns mètodes com les Xarxes Neuronals, que actualment estan donant resultats molt impressionants en l'àmbit del ML i del Deep Learning.
+
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=0.5\textwidth]{../img/comparacioAlgs}
@@ -241,7 +241,7 @@ Com a idees per continuar aquest TFG es podria fer la mateixa anàlisi de les da
 \section {Conclusions}
 
 \section{Treball Futur}
-
+Com a idees per continuar aquest TFG es podria fer la mateixa anàlisi de les dades però en un àmbit mundial en lloc d'Europeu. Segurament els resultats siguin encara millors gràcies a un nombre més gran de dades a analitzar. Una altra possible continuació pot ser l'increment d'algorismes de ML amb els que analitzar les dades, ja que en aquest treball s'han obviat alguns mètodes com les Xarxes Neuronals, que actualment estan donant resultats molt impressionants en l'àmbit del ML i del Deep Learning.
 \begin{thebibliography}{11}
 \bibitem{1}
 \url{https://earthobservatory.nasa.gov/world-of-change/DecadalTemp}
