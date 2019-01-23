@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.25)  20 JAN 2019 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.6)  23 JAN 2019 17:55
 entering extended mode
-**"C:/Users/Miquel/Jupyter/meuTFG/informe final/TFG-InformeFinal.tex"
-("C:/Users/Miquel/Jupyter/meuTFG/informe final/TFG-InformeFinal.tex"
+**./TFG-InformeFinal.tex
+(TFG-InformeFinal.tex
 LaTeX2e <2018-04-01> patch level 5
-(E:\MiKTeX\tex\latex\base\article.cls
+(D:\Programes\MikTex\tex\latex\base\article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(E:\MiKTeX\tex\latex\base\size10.clo
+(D:\Programes\MikTex\tex\latex\base\size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,32 +19,34 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (E:\MiKTeX\tex\latex\base\inputenc.sty
+)
+(D:\Programes\MikTex\tex\latex\base\inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-(E:\MiKTeX\tex\generic\babel\babel.sty
-Package: babel 2018/06/05 3.22 The Babel package
- (E:\MiKTeX\tex\generic\babel\switch.def
-File: switch.def 2018/06/05 3.22 Babel switching mechanism
+(D:\Programes\MikTex\tex\generic\babel\babel.sty
+Package: babel 2018/09/26 3.24 The Babel package
+
+(D:\Programes\MikTex\tex\generic\babel\switch.def
+File: switch.def 2018/09/26 3.24 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(E:\MiKTeX\tex\latex\arabi\bblopts.cfg
+(D:\Programes\MikTex\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(E:\MiKTeX\tex\latex\babel-catalan\catalan.ldf
+(D:\Programes\MikTex\tex\latex\babel-catalan\catalan.ldf
 Language: catalan 2005/03/29 v2.2p Catalan support from the babel system
 
-(E:\MiKTeX\tex\generic\babel\babel.def
-File: babel.def 2018/06/05 3.22 Babel common definitions
+(D:\Programes\MikTex\tex\generic\babel\babel.def
+File: babel.def 2018/09/26 3.24 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
-(E:\MiKTeX\tex\generic\babel\txtbabel.def)
+(D:\Programes\MikTex\tex\generic\babel\txtbabel.def)
 \bbl@dirlevel=\count89
 )
 Package babel Info: Making " an active character on input line 91.
@@ -54,7 +56,7 @@ Some word breaks will not be found.
 \rightllkern=\dimen105
 \raiselldim=\dimen106
 ))
-(E:\MiKTeX\tex\latex\tools\multicol.sty
+(D:\Programes\MikTex\tex\latex\tools\multicol.sty
 Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \c@tracingmulticols=\count90
 
@@ -107,31 +109,31 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 \mc@col@check@num=\count98
-) (E:\MiKTeX\tex\latex\graphics\graphicx.sty
+) (D:\Programes\MikTex\tex\latex\graphics\graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(E:\MiKTeX\tex\latex\graphics\keyval.sty
+(D:\Programes\MikTex\tex\latex\graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(E:\MiKTeX\tex\latex\graphics\graphics.sty
+(D:\Programes\MikTex\tex\latex\graphics\graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(E:\MiKTeX\tex\latex\graphics\trig.sty
+(D:\Programes\MikTex\tex\latex\graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(E:\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+(D:\Programes\MikTex\tex\latex\graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(E:\MiKTeX\tex\latex\graphics-def\pdftex.def
+(D:\Programes\MikTex\tex\latex\graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-(E:\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+(D:\Programes\MikTex\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip45
@@ -144,10 +146,10 @@ s
 \f@nch@O@olf=\skip52
 \f@nch@O@orf=\skip53
 )
-(E:\MiKTeX\tex\latex\psnfss\times.sty
+(D:\Programes\MikTex\tex\latex\psnfss\times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(E:\MiKTeX\tex\latex\titlesec\titlesec.sty
+(D:\Programes\MikTex\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip54
@@ -158,21 +160,22 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen120
 \titlewidthlast=\dimen121
 \titlewidthfirst=\dimen122
-) (E:\MiKTeX\tex\latex\url\url.sty
+)
+(D:\Programes\MikTex\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(E:\MiKTeX\tex\latex\multirow\multirow.sty
+(D:\Programes\MikTex\tex\latex\multirow\multirow.sty
 Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
 \multirow@colwidth=\skip56
 \multirow@cntb=\count99
 \multirow@dima=\skip57
 \bigstrutjot=\dimen123
 )
-(E:\MiKTeX\tex\latex\lettrine\lettrine.sty
+(D:\Programes\MikTex\tex\latex\lettrine\lettrine.sty
 File: lettrine.sty 2018-08-28 v2.21 (Daniel Flipo)
 
-(E:\MiKTeX\tex\generic\minifp\minifp.sty
+(D:\Programes\MikTex\tex\generic\minifp\minifp.sty
 Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
 -based programing language.
 \MFP@loopctr=\count100
@@ -204,18 +207,18 @@ Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
 \LettrineDepth=\dimen142
 
 Loading lettrine.cfg
-(E:\MiKTeX\tex\latex\lettrine\lettrine.cfg))
-(E:\MiKTeX\tex\latex\geometry\geometry.sty
+(D:\Programes\MikTex\tex\latex\lettrine\lettrine.cfg))
+(D:\Programes\MikTex\tex\latex\geometry\geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(E:\MiKTeX\tex\generic\oberdiek\ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(D:\Programes\MikTex\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(E:\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(E:\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+(D:\Programes\MikTex\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count105
@@ -231,11 +234,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks18
 
-(E:\MiKTeX\tex\latex\geometry\geometry.cfg))
-(E:\MiKTeX\tex\latex\caption\caption.sty
+(D:\Programes\MikTex\tex\latex\geometry\geometry.cfg))
+(D:\Programes\MikTex\tex\latex\caption\caption.sty
 Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 
-(E:\MiKTeX\tex\latex\caption\caption3.sty
+(D:\Programes\MikTex\tex\latex\caption\caption3.sty
 Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen151
@@ -248,15 +251,15 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 )
 Package caption Info: We need package `newfloat' on input line 289.
 
-(E:\MiKTeX\tex\latex\caption\newfloat.sty
+(D:\Programes\MikTex\tex\latex\caption\newfloat.sty
 Package: newfloat 2018/03/04 v1.1a Defining new floating environments (AR)
 )
 \c@ContinuedFloat=\count108
 )
-(E:\MiKTeX\tex\latex\mathtools\mathtools.sty
+(D:\Programes\MikTex\tex\latex\mathtools\mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
-(E:\MiKTeX\tex\latex\tools\calc.sty
+(D:\Programes\MikTex\tex\latex\tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count109
 \calc@Bcount=\count110
@@ -268,26 +271,28 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count111
 \calc@Cskip=\skip60
-) (E:\MiKTeX\tex\latex\mathtools\mhsetup.sty
+)
+(D:\Programes\MikTex\tex\latex\mathtools\mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-) (E:\MiKTeX\tex\latex\amsmath\amsmath.sty
+)
+(D:\Programes\MikTex\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
-(E:\MiKTeX\tex\latex\amsmath\amstext.sty
+(D:\Programes\MikTex\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(E:\MiKTeX\tex\latex\amsmath\amsgen.sty
+(D:\Programes\MikTex\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen160
 ))
-(E:\MiKTeX\tex\latex\amsmath\amsbsy.sty
+(D:\Programes\MikTex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen161
 )
-(E:\MiKTeX\tex\latex\amsmath\amsopn.sty
+(D:\Programes\MikTex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count112
@@ -341,8 +346,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen173
 \l_MT_above_shortintertext_sep=\dimen174
 \l_MT_below_shortintertext_sep=\dimen175
-)
-No file TFG-InformeFinal.aux.
+) (TFG-InformeFinal.aux)
 \openout1 = `TFG-InformeFinal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -358,13 +362,14 @@ LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 34.
-(E:\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+
+(D:\Programes\MikTex\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Info: Redefining \l on input line 34.
 LaTeX Info: Redefining \L on input line 34.
 
-(E:\MiKTeX\tex\context\base\supp-pdf.mkii
+(D:\Programes\MikTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
 \scratchdimen=\dimen176
@@ -377,31 +382,31 @@ LaTeX Info: Redefining \L on input line 34.
 \MPnumerator=\count129
 \makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks25
-) (E:\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+) (D:\Programes\MikTex\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(E:\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(E:\MiKTeX\tex\latex\oberdiek\grfext.sty
+(D:\Programes\MikTex\tex\latex\oberdiek\grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(E:\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(E:\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(E:\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+(D:\Programes\MikTex\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(E:\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(E:\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(E:\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+(D:\Programes\MikTex\tex\generic\oberdiek\ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -410,8 +415,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(E:\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+(D:\Programes\MikTex\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -463,7 +468,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 102.
 
-(E:\MiKTeX\tex\latex\psnfss\ot1phv.fd
+(D:\Programes\MikTex\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
@@ -491,7 +496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
  []
 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 102.
-(E:\MiKTeX\tex\latex\psnfss\upzd.fd
+(D:\Programes\MikTex\tex\latex\psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
@@ -503,14 +508,14 @@ Package lettrine.sty Info: Targeted height = 29.3449pt
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{C:/Users/Miquel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/mikyy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 117.
 
 
-(E:\MiKTeX\tex\latex\psnfss\omsptm.fd
+(D:\Programes\MikTex\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
@@ -526,383 +531,372 @@ Underfull \hbox (badness 1953) in paragraph at lines 118--119
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
-[2]
-<../img/tempAustria.png, id=17, 722.7pt x 361.35pt>
-File: ../img/tempAustria.png Graphic file (type png)
-<use ../img/tempAustria.png>
-Package pdftex.def Info: ../img/tempAustria.png  used on input line 179.
-(pdftex.def)             Requested size: 241.84843pt x 120.92204pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+[2] [3]
+<../img/tempMitjaVariacioPaisos.png, id=20, 377.91188pt x 350.05782pt>
+File: ../img/tempMitjaVariacioPaisos.png Graphic file (type png)
+<use ../img/tempMitjaVariacioPaisos.png>
+Package pdftex.def Info: ../img/tempMitjaVariacioPaisos.png  used on input line
+ 185.
+(pdftex.def)             Requested size: 241.84843pt x 224.02554pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 179--180
+Overfull \hbox (5.0pt too wide) in paragraph at lines 185--186
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 196.
 <../img/arbreDecisioSimple.png, id=22, 863.225pt x 436.63126pt>
 File: ../img/arbreDecisioSimple.png Graphic file (type png)
 <use ../img/arbreDecisioSimple.png>
-Package pdftex.def Info: ../img/arbreDecisioSimple.png  used on input line 193.
+Package pdftex.def Info: ../img/arbreDecisioSimple.png  used on input line 199.
 
 (pdftex.def)             Requested size: 241.84843pt x 122.3292pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 193--194
+Overfull \hbox (5.0pt too wide) in paragraph at lines 199--200
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <C:/Users/Miquel/Jupyter/meuTFG/img/tempAustria.png> <C:/Users/Miquel/Jupyte
-r/meuTFG/img/arbreDecisioSimple.png>]
+[4 <../img/tempMitjaVariacioPaisos.png>]
+<../img/KernelsSVM.png, id=28, 386.19281pt x 310.15875pt>
+File: ../img/KernelsSVM.png Graphic file (type png)
+<use ../img/KernelsSVM.png>
+Package pdftex.def Info: ../img/KernelsSVM.png  used on input line 215.
+(pdftex.def)             Requested size: 241.84843pt x 194.23209pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 215--216
+ [][] 
+ []
+
 <../img/randomForest.png, id=29, 841.1425pt x 505.89pt>
 File: ../img/randomForest.png Graphic file (type png)
 <use ../img/randomForest.png>
-Package pdftex.def Info: ../img/randomForest.png  used on input line 209.
+Package pdftex.def Info: ../img/randomForest.png  used on input line 229.
 (pdftex.def)             Requested size: 241.84843pt x 145.45381pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 209--210
+Overfull \hbox (5.0pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
-<../img/comparacioMetricsAlgs.png, id=30, 331.99031pt x 231.11343pt>
+[5 <../img/arbreDecisioSimple.png> <../img/KernelsSVM.png>]
+Underfull \hbox (badness 1072) in paragraph at lines 238--239
+\OT1/ptm/m/n/10 PRIN-CI-PALS I AL-GO DEL KE-RAS I PER-QUE NO
+ []
+
+<../img/comparacioMetricsAlgs.png, id=35, 331.99031pt x 231.11343pt>
 File: ../img/comparacioMetricsAlgs.png Graphic file (type png)
 <use ../img/comparacioMetricsAlgs.png>
 Package pdftex.def Info: ../img/comparacioMetricsAlgs.png  used on input line 2
-26.
+51.
 (pdftex.def)             Requested size: 241.84843pt x 168.36227pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 226--227
+Overfull \hbox (5.0pt too wide) in paragraph at lines 251--252
  [][] 
  []
 
-[5 <C:/Users/Miquel/Jupyter/meuTFG/img/randomForest.png> <C:/Users/Miquel/Jupyt
-er/meuTFG/img/comparacioMetricsAlgs.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <../img/comparacioAlgs.png, id=36, 563.85657pt x 548.80031pt>
 File: ../img/comparacioAlgs.png Graphic file (type png)
 <use ../img/comparacioAlgs.png>
-Package pdftex.def Info: ../img/comparacioAlgs.png  used on input line 237.
+Package pdftex.def Info: ../img/comparacioAlgs.png  used on input line 261.
 (pdftex.def)             Requested size: 241.84843pt x 235.39334pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 237--238
+Overfull \hbox (5.0pt too wide) in paragraph at lines 261--262
  [][] 
  []
 
-! Undefined control sequence.
-\Url Error ->\url used in a moving argument. 
-                                             
-l.247 \url
-          {https://earthobservatory.nasa.gov/world-of-change/DecadalTemp}
-? 
+[6 <../img/randomForest.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 274.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
-[]\OT1/ptm/m/n/10 https://earthobservatory.nasa.gov/world-of-
+ (D:\Programes\MikTex\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+[]$\OT1/pcr/m/n/10 https : / / earthobservatory . nasa . gov /
  []
 
 
-Underfull \vbox (badness 3635) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[]\OT1/ptm/m/n/10 "Sample Re-se-arch", \OT1/ptm/m/it/10 The Stan-dish
+ []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 249.
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\OT1/ptm/m/it/10 Group\OT1/ptm/m/n/10 . [En l[]nia]. Dis-po-ni-ble a: $\OT1/pc
+r/m/n/10 https :
+ []
 
 
-(E:\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\OT1/pcr/m/n/10 / / www . standishgroup . com / sample _
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 280--281
+[]\OT1/ptm/m/n/10 "The Com-ple-te Gui-de to Un-ders-tan-ding Agi-le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+\OT1/ptm/m/n/10 Tes-ting", \OT1/ptm/m/it/10 QA Symp-hony\OT1/ptm/m/n/10 . [En l
+[]nia].Disponible
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 280--281
+\OT1/ptm/m/n/10 a: $\OT1/pcr/m/n/10 https : / / www . qasymphony . com / blog /
+
+ []
+
+
+Overfull \hbox (17.31148pt too wide) in paragraph at lines 280--281
+\OT1/pcr/m/n/10 agile-[]methodology-[]guide-[]agile-[]testing/$\OT1/ptm/m/n/10 
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 \OT1/pcr/m/n/10 / / www . kaggle . com / unitednations /
  []
 
 
-Overfull \hbox (16.81148pt too wide) in paragraph at lines 249--251
+Overfull \hbox (16.81148pt too wide) in paragraph at lines 282--283
 \OT1/pcr/m/n/10 international-[]greenhouse-[]gas-[]emissions$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 253--255
-[]\OT1/ptm/m/n/10 `International Gre-en-hou-se Gas Emis-si-ons", \OT1/ptm/m/it/
-10 Uni-
+Underfull \hbox (badness 3058) in paragraph at lines 284--285
+[]\OT1/ptm/m/n/10 ``International Gre-en-hou-se Gas Emis-si-ons", \OT1/ptm/m/it
+/10 Uni-
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 253--255
+Underfull \hbox (badness 2012) in paragraph at lines 284--285
 \OT1/ptm/m/it/10 ted Na-ti-ons\OT1/ptm/m/n/10 . [En l[]nia]. Dis-po-ni-ble a: 
 $\OT1/pcr/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \OT1/pcr/m/n/10 / / www . kaggle . com / unitednations /
  []
 
 
-Overfull \hbox (16.81148pt too wide) in paragraph at lines 253--255
+Overfull \hbox (16.81148pt too wide) in paragraph at lines 284--285
 \OT1/pcr/m/n/10 international-[]greenhouse-[]gas-[]emissions$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
-[]\OT1/ptm/m/n/10 `Land Use, Land-Use Chan-ge and Fo-restry
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[]\OT1/ptm/m/n/10 ``Land Use, Land-Use Chan-ge and Fo-restry
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 (LU-LUCF)", \OT1/ptm/m/it/10 Uni-ted Na-ti-ons\OT1/ptm/m/n/10 .
  [En l[]nia].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 Dis-po-ni-ble a: $\OT1/pcr/m/n/10 https : / / unfccc . int /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/pcr/m/n/10 topics / land-[]use / workstreams /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/pcr/m/n/10 land-[]use-[]-[]land-[]use-[]change-[]lulucf$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 257--259
+Underfull \hbox (badness 1527) in paragraph at lines 288--289
 \OT1/ptm/m/n/10 CUTS (LU-LUCF) pa-ra el []exito del Acu-er-do de
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 257--259
+Underfull \hbox (badness 1142) in paragraph at lines 288--289
 \OT1/ptm/m/n/10 ble a: $\OT1/pcr/m/n/10 https : / / carbonmarketwatch . org /
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 259--261
-[]\OT1/ptm/m/n/10 `Databricks Uni-fi-ed Analy-tics", \OT1/ptm/m/it/10 Da-ta-Bri
-cks\OT1/ptm/m/n/10 . [En
+Underfull \hbox (badness 3019) in paragraph at lines 290--291
+[]\OT1/ptm/m/n/10 ``Databricks Uni-fi-ed Analy-tics", \OT1/ptm/m/it/10 Da-ta-Br
+icks\OT1/ptm/m/n/10 . [En
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 259--261
+Underfull \hbox (badness 2865) in paragraph at lines 290--291
 \OT1/ptm/m/n/10 l[]nia]. Dis-po-ni-ble a: $\OT1/pcr/m/n/10 https : / / databri
 cks .
  []
 
-
-Underfull \hbox (badness 2564) in paragraph at lines 267--269
-[]\OT1/ptm/m/n/10 `Interpolation", \OT1/ptm/m/it/10 Wiki-pe-dia\OT1/ptm/m/n/10 
-. [En l[]nia]. Dis-po-ni-ble
+[7 <../img/comparacioMetricsAlgs.png> <../img/comparacioAlgs.png>]
+Underfull \hbox (badness 2142) in paragraph at lines 298--299
+[]\OT1/ptm/m/n/10 ``Interpolation", \OT1/ptm/m/it/10 Wiki-pe-dia\OT1/ptm/m/n/10
+ . [En l[]nia]. Dis-po-ni-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \OT1/ptm/m/n/10 a: $\OT1/pcr/m/n/10 https : / / en . wikipedia . org / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \OT1/pcr/m/n/10 Interpolation # Spline _ interpolation$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-[]\OT1/ptm/m/n/10 `scipy.interpolate.InterpolatedUnivariateSpline",
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-\OT1/ptm/m/it/10 SciPy\OT1/ptm/m/n/10 . [En l[]nia]. Dis-po-ni-ble a: $\OT1/pc
-r/m/n/10 https : / /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-\OT1/pcr/m/n/10 docs . scipy . org / doc / scipy / reference /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-\OT1/pcr/m/n/10 generated / scipy . interpolate .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-\OT1/pcr/m/n/10 InterpolatedUnivariateSpline . html$\OT1/ptm/m/n/10 .
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 271--273
+Underfull \hbox (badness 2671) in paragraph at lines 300--301
 \OT1/ptm/m/n/10 l[]nia]. Dis-po-ni-ble a:$\OT1/pcr/m/n/10 https : / / scikit-[
 ]learn .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 \OT1/pcr/m/n/10 org / stable / modules / preprocessing .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 \OT1/pcr/m/n/10 html # encoding-[]categorical-[]features$\OT1/ptm/m/n/10 .
  []
 
-[6 <C:/Users/Miquel/Jupyter/meuTFG/img/comparacioAlgs.png>]
-! Undefined control sequence.
-\Url Error ->\url used in a moving argument. 
-                                             
-l.279 \url
-          {https://data-flair.training/blogs/svm-kernel-functions/}
-? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-[]\OT1/ptm/m/n/10 `Kernel Functions-Introduction to SVM Ker-nel
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[]$\OT1/pcr/m/n/10 https : / / scikit-[]learn . org / stable /
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\OT1/pcr/m/n/10 auto _ examples / svm / plot _ rbf _
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 310--311
+[]\OT1/ptm/m/n/10 ``Kernel Functions-Introduction to SVM Ker-nel
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 310--311
 \OT1/ptm/m/n/10 & Exam-ples", \OT1/ptm/m/it/10 Da-ta Flair\OT1/ptm/m/n/10 . [En
  l[]nia]. Dis-po-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 \OT1/ptm/m/n/10 ble a:$\OT1/pcr/m/n/10 https : / / towardsdatascience . com /
  []
 
 
-Overfull \hbox (29.31148pt too wide) in paragraph at lines 281--282
+Overfull \hbox (29.31148pt too wide) in paragraph at lines 310--311
 \OT1/pcr/m/n/10 the-[]random-[]forest-[]algorithm-[]d457d499ffcd$\OT1/ptm/m/n/1
 0 .
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 285--286
+Underfull \hbox (badness 1320) in paragraph at lines 314--315
 []\OT1/ptm/m/n/10 ``Grid Se-arch CV", \OT1/ptm/m/it/10 Scikit-Learn\OT1/ptm/m/n
 /10 . [En l[]nia]. Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 \OT1/ptm/m/n/10 po-ni-ble a:$\OT1/pcr/m/n/10 https : / / scikit-[]learn . org /
  0 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 \OT1/pcr/m/n/10 15 / modules / generated / sklearn . grid _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 \OT1/pcr/m/n/10 search . GridSearchCV . html # sklearn .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 \OT1/pcr/m/n/10 grid _ search . GridSearchCV$\OT1/ptm/m/n/10 . [Ac-ce-dit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 \OT1/ptm/m/n/10 Dis-po-ni-ble a:$\OT1/pcr/m/n/10 https : / / scikit-[]learn . o
 rg /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 \OT1/pcr/m/n/10 stable / modules / generated / sklearn .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 \OT1/pcr/m/n/10 model _ selection . RandomizedSearchCV .
- []
-
-[7
-
-]
-<../img/tempSpain.png, id=46, 722.7pt x 361.35pt>
-File: ../img/tempSpain.png Graphic file (type png)
-<use ../img/tempSpain.png>
-Package pdftex.def Info: ../img/tempSpain.png  used on input line 296.
-(pdftex.def)             Requested size: 483.69687pt x 241.84961pt.
-
-Overfull \hbox (246.84843pt too wide) in paragraph at lines 296--297
- [][] 
- []
-
-<../img/tempGermany.png, id=47, 722.7pt x 361.35pt>
-File: ../img/tempGermany.png Graphic file (type png)
-<use ../img/tempGermany.png>
-Package pdftex.def Info: ../img/tempGermany.png  used on input line 303.
-(pdftex.def)             Requested size: 483.69687pt x 241.84961pt.
-
-Overfull \hbox (246.84843pt too wide) in paragraph at lines 303--304
- [][] 
  []
 
 [8
 
+]
+<../img/tempSpain.png, id=51, 722.7pt x 361.35pt>
+File: ../img/tempSpain.png Graphic file (type png)
+<use ../img/tempSpain.png>
+Package pdftex.def Info: ../img/tempSpain.png  used on input line 325.
+(pdftex.def)             Requested size: 483.69687pt x 241.84961pt.
 
- <C:/Users/Miquel/Jupyter/meuTFG/img/tempSpain.png> <C:/Users/Miquel/Jupyter/me
-uTFG/img/tempGermany.png>] (TFG-InformeFinal.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.28 ...p \let \relax \relax \relax \endgroup }{1}
-                                                  
-? 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.28 ...p \let \relax \relax \relax \endgroup }{1}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \unhbox 
-l.48 ... \let \relax \relax \relax \endgroup }{17}
-                                                  
-? 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.48 ... \let \relax \relax \relax \endgroup }{17}
-                                                  
-? 
-)
+Overfull \hbox (246.84843pt too wide) in paragraph at lines 325--326
+ [][] 
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+<../img/tempGermany.png, id=52, 722.7pt x 361.35pt>
+File: ../img/tempGermany.png Graphic file (type png)
+<use ../img/tempGermany.png>
+Package pdftex.def Info: ../img/tempGermany.png  used on input line 332.
+(pdftex.def)             Requested size: 483.69687pt x 241.84961pt.
 
- )
-(\end occurred inside a group at level 2)
+Overfull \hbox (246.84843pt too wide) in paragraph at lines 332--333
+ [][] 
+ []
 
-### semi simple group (level 2) entered at line 28 (\begingroup)
-### semi simple group (level 1) entered at line 308 (\begingroup)
-### bottom level 
+[9
+
+
+ <../img/tempSpain.png> <../img/tempGermany.png>] (TFG-InformeFinal.aux) ) 
 Here is how much of TeX's memory you used:
- 6153 strings out of 492973
- 88617 string characters out of 3143877
- 193655 words of memory out of 3000000
- 9881 multiletter control sequences out of 15000+200000
+ 6185 strings out of 492970
+ 90353 string characters out of 3139413
+ 196661 words of memory out of 3000000
+ 9914 multiletter control sequences out of 15000+200000
  35739 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,1720b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/MiKTeX/fonts/enc/dvips/base/8r.enc}<E:/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/MiKTeX/fonts/type1/urw
-/courier/ucrr8a.pfb><E:/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/MiKTeX/f
-onts/type1/urw/helvetic/uhvr8a.pfb><E:/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.
-pfb><E:/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTeX/fonts/type1/urw/time
-s/utmr8a.pfb><E:/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><E:/MiKTeX/fonts/type
-1/urw/zapfding/uzdr.pfb>
-Output written on TFG-InformeFinal.pdf (8 pages, 461056 bytes).
+ 41i,11n,43p,1638b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/P
+rogrames/MikTex/fonts/enc/dvips/base/8r.enc}<D:/Programes/MikTex/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb><D:/Programes/MikTex/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><D:/Programes/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Pro
+grames/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/Programes/MikTex/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb><D:/Programes/MikTex/fonts/type1/urw/helvetic/uhvr8a
+.pfb><D:/Programes/MikTex/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Programes/Mi
+kTex/fonts/type1/urw/times/utmb8a.pfb><D:/Programes/MikTex/fonts/type1/urw/time
+s/utmr8a.pfb><D:/Programes/MikTex/fonts/type1/urw/times/utmri8a.pfb><D:/Program
+es/MikTex/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on TFG-InformeFinal.pdf (9 pages, 535878 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
