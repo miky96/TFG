@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.25)  24 JAN 2019 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.25)  25 JAN 2019 00:55
 entering extended mode
 **./TFG-InformeFinal.tex
 (TFG-InformeFinal.tex
@@ -341,28 +341,31 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen173
 \l_MT_above_shortintertext_sep=\dimen174
 \l_MT_below_shortintertext_sep=\dimen175
+)
+(E:\MiKTeX\tex\latex\placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (TFG-InformeFinal.aux)
 \openout1 = `TFG-InformeFinal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 35.
 
 (E:\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Info: Redefining \l on input line 34.
-LaTeX Info: Redefining \L on input line 34.
+LaTeX Info: Redefining \l on input line 35.
+LaTeX Info: Redefining \L on input line 35.
 
 (E:\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -461,45 +464,45 @@ G,.JBIG2,.JB2,.eps]
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 103.
 
 (E:\MiKTeX\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 102.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 103.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 102.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 103.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
-LaTeX Font Info:    Try loading font information for U+pzd on input line 102.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+pzd on input line 103.
 (E:\MiKTeX\tex\latex\psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 108.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 109.
 Package lettrine.sty Info: Targeted height = 29.3449pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 29.34491pt (E);
-(lettrine.sty)             reported on input line 109.
+(lettrine.sty)             reported on input line 110.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -507,35 +510,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 117.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 118.
 
 
 (E:\MiKTeX\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
 
-Underfull \hbox (badness 2717) in paragraph at lines 118--119
+Underfull \hbox (badness 2717) in paragraph at lines 119--120
 []\OT1/ptm/m/n/10 Analitzar quins son els al-go-ris-mes de ML m[]es
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 118--119
+Underfull \hbox (badness 1953) in paragraph at lines 119--120
 \OT1/ptm/m/n/10 uti-lit-zats ac-tu-al-ment en pro-ble-mes de re-gres-si[]o i
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
 [2] [3]
 <../img/tempMitjaVariacioPaisos.png, id=20, 377.91188pt x 350.05782pt>
 File: ../img/tempMitjaVariacioPaisos.png Graphic file (type png)
 <use ../img/tempMitjaVariacioPaisos.png>
 Package pdftex.def Info: ../img/tempMitjaVariacioPaisos.png  used on input line
- 186.
+ 187.
 (pdftex.def)             Requested size: 241.84843pt x 224.02554pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 186--187
+Overfull \hbox (5.0pt too wide) in paragraph at lines 187--188
  [][] 
  []
 
@@ -543,15 +546,15 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 186--187
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 196.
 <../img/arbreDecisioSimple.png, id=22, 863.225pt x 436.63126pt>
 File: ../img/arbreDecisioSimple.png Graphic file (type png)
 <use ../img/arbreDecisioSimple.png>
-Package pdftex.def Info: ../img/arbreDecisioSimple.png  used on input line 198.
+Package pdftex.def Info: ../img/arbreDecisioSimple.png  used on input line 199.
 
 (pdftex.def)             Requested size: 241.84843pt x 122.3292pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 198--199
+Overfull \hbox (5.0pt too wide) in paragraph at lines 199--200
  [][] 
  []
 
@@ -562,10 +565,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../img/KernelsSVM.png, id=28, 386.19281pt x 310.15875pt>
 File: ../img/KernelsSVM.png Graphic file (type png)
 <use ../img/KernelsSVM.png>
-Package pdftex.def Info: ../img/KernelsSVM.png  used on input line 214.
+Package pdftex.def Info: ../img/KernelsSVM.png  used on input line 215.
 (pdftex.def)             Requested size: 241.84843pt x 194.23209pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 214--215
+Overfull \hbox (5.0pt too wide) in paragraph at lines 215--216
  [][] 
  []
 
@@ -573,341 +576,338 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 214--215
 <../img/randomForest.png, id=34, 841.1425pt x 505.89pt>
 File: ../img/randomForest.png Graphic file (type png)
 <use ../img/randomForest.png>
-Package pdftex.def Info: ../img/randomForest.png  used on input line 228.
+Package pdftex.def Info: ../img/randomForest.png  used on input line 229.
 (pdftex.def)             Requested size: 241.84843pt x 145.45381pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 228--229
+Overfull \hbox (5.0pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 233--234
+Underfull \hbox (badness 7595) in paragraph at lines 234--235
 []\OT1/ptm/m/n/10 El Ran-dom Fo-rest t[]e pr[]acticament els ma-tei-xos
  []
 
 <../img/XarxaNeur.png, id=35, 643.40375pt x 628.3475pt>
 File: ../img/XarxaNeur.png Graphic file (type png)
 <use ../img/XarxaNeur.png>
-Package pdftex.def Info: ../img/XarxaNeur.png  used on input line 247.
+Package pdftex.def Info: ../img/XarxaNeur.png  used on input line 248.
 (pdftex.def)             Requested size: 241.84843pt x 236.18582pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 247--248
+Overfull \hbox (5.0pt too wide) in paragraph at lines 248--249
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <../img/randomForest.png>]
-<../img/comparacioMetricsAlgs.png, id=40, 331.99031pt x 231.11343pt>
+[6 <../img/randomForest.png>] [7 <../img/XarxaNeur.png>]
+<../img/comparacioMetricsAlgs.png, id=45, 331.99031pt x 231.11343pt>
 File: ../img/comparacioMetricsAlgs.png Graphic file (type png)
 <use ../img/comparacioMetricsAlgs.png>
 Package pdftex.def Info: ../img/comparacioMetricsAlgs.png  used on input line 2
-80.
+82.
 (pdftex.def)             Requested size: 241.84843pt x 168.36227pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 280--281
+Overfull \hbox (5.0pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
-[7 <../img/XarxaNeur.png>]
 <../img/comparacioAlgs.png, id=46, 563.85657pt x 548.80031pt>
 File: ../img/comparacioAlgs.png Graphic file (type png)
 <use ../img/comparacioAlgs.png>
-Package pdftex.def Info: ../img/comparacioAlgs.png  used on input line 289.
+Package pdftex.def Info: ../img/comparacioAlgs.png  used on input line 292.
 (pdftex.def)             Requested size: 241.84843pt x 235.39334pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 289--290
+Overfull \hbox (5.0pt too wide) in paragraph at lines 292--293
  [][] 
  []
 
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 302.
+[8 <../img/comparacioMetricsAlgs.png> <../img/comparacioAlgs.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 312.
 
 
 (E:\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 []$\OT1/pcr/m/n/10 https : / / earthobservatory . nasa . gov /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 []\OT1/ptm/m/n/10 "Sample Re-se-arch", \OT1/ptm/m/it/10 The Stan-dish
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 \OT1/ptm/m/it/10 Group\OT1/ptm/m/n/10 . [En l[]nia]. Dis-po-ni-ble a: $\OT1/pc
 r/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 \OT1/pcr/m/n/10 / / www . standishgroup . com / sample _
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 308--309
+Underfull \hbox (badness 6708) in paragraph at lines 318--319
 []\OT1/ptm/m/n/10 "The Com-ple-te Gui-de to Un-ders-tan-ding Agi-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 \OT1/ptm/m/n/10 Tes-ting", \OT1/ptm/m/it/10 QA Symp-hony\OT1/ptm/m/n/10 . [En l
 []nia].Disponible
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 308--309
+Underfull \hbox (badness 7888) in paragraph at lines 318--319
 \OT1/ptm/m/n/10 a: $\OT1/pcr/m/n/10 https : / / www . qasymphony . com / blog /
 
  []
 
 
-Overfull \hbox (17.31148pt too wide) in paragraph at lines 308--309
+Overfull \hbox (17.31148pt too wide) in paragraph at lines 318--319
 \OT1/pcr/m/n/10 agile-[]methodology-[]guide-[]agile-[]testing/$\OT1/ptm/m/n/10 
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 \OT1/pcr/m/n/10 / / www . kaggle . com / unitednations /
  []
 
 
-Overfull \hbox (16.81148pt too wide) in paragraph at lines 310--311
+Overfull \hbox (16.81148pt too wide) in paragraph at lines 320--321
 \OT1/pcr/m/n/10 international-[]greenhouse-[]gas-[]emissions$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 312--313
+Underfull \hbox (badness 3058) in paragraph at lines 322--323
 []\OT1/ptm/m/n/10 ``International Gre-en-hou-se Gas Emis-si-ons", \OT1/ptm/m/it
 /10 Uni-
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 312--313
+Underfull \hbox (badness 2012) in paragraph at lines 322--323
 \OT1/ptm/m/it/10 ted Na-ti-ons\OT1/ptm/m/n/10 . [En l[]nia]. Dis-po-ni-ble a: 
 $\OT1/pcr/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 \OT1/pcr/m/n/10 / / www . kaggle . com / unitednations /
  []
 
 
-Overfull \hbox (16.81148pt too wide) in paragraph at lines 312--313
+Overfull \hbox (16.81148pt too wide) in paragraph at lines 322--323
 \OT1/pcr/m/n/10 international-[]greenhouse-[]gas-[]emissions$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 []\OT1/ptm/m/n/10 ``Land Use, Land-Use Chan-ge and Fo-restry
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 \OT1/ptm/m/n/10 (LU-LUCF)", \OT1/ptm/m/it/10 Uni-ted Na-ti-ons\OT1/ptm/m/n/10 .
  [En l[]nia].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 \OT1/ptm/m/n/10 Dis-po-ni-ble a: $\OT1/pcr/m/n/10 https : / / unfccc . int /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 \OT1/pcr/m/n/10 topics / land-[]use / workstreams /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 \OT1/pcr/m/n/10 land-[]use-[]-[]land-[]use-[]change-[]lulucf$\OT1/ptm/m/n/10 .
  []
 
-[8 <../img/comparacioMetricsAlgs.png> <../img/comparacioAlgs.png>]
-Underfull \hbox (badness 1527) in paragraph at lines 316--317
+
+Underfull \hbox (badness 1527) in paragraph at lines 326--327
 \OT1/ptm/m/n/10 CUTS (LU-LUCF) pa-ra el []exito del Acu-er-do de
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 316--317
+Underfull \hbox (badness 1142) in paragraph at lines 326--327
 \OT1/ptm/m/n/10 ble a: $\OT1/pcr/m/n/10 https : / / carbonmarketwatch . org /
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 318--319
+Underfull \hbox (badness 3019) in paragraph at lines 328--329
 []\OT1/ptm/m/n/10 ``Databricks Uni-fi-ed Analy-tics", \OT1/ptm/m/it/10 Da-ta-Br
 icks\OT1/ptm/m/n/10 . [En
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 318--319
+Underfull \hbox (badness 2865) in paragraph at lines 328--329
 \OT1/ptm/m/n/10 l[]nia]. Dis-po-ni-ble a: $\OT1/pcr/m/n/10 https : / / databri
 cks .
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 326--327
+Underfull \hbox (badness 2142) in paragraph at lines 336--337
 []\OT1/ptm/m/n/10 ``Interpolation", \OT1/ptm/m/it/10 Wiki-pe-dia\OT1/ptm/m/n/10
  . [En l[]nia]. Dis-po-ni-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 \OT1/ptm/m/n/10 a: $\OT1/pcr/m/n/10 https : / / en . wikipedia . org / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 \OT1/pcr/m/n/10 Interpolation # Spline _ interpolation$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 328--329
+Underfull \hbox (badness 2671) in paragraph at lines 338--339
 \OT1/ptm/m/n/10 l[]nia]. Dis-po-ni-ble a:$\OT1/pcr/m/n/10 https : / / scikit-[
 ]learn .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 \OT1/pcr/m/n/10 org / stable / modules / preprocessing .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 \OT1/pcr/m/n/10 html # encoding-[]categorical-[]features$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 []$\OT1/pcr/m/n/10 https : / / scikit-[]learn . org / stable /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 \OT1/pcr/m/n/10 auto _ examples / svm / plot _ rbf _
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 338--339
+Underfull \hbox (badness 7362) in paragraph at lines 348--349
 []\OT1/ptm/m/n/10 ``Kernel Functions-Introduction to SVM Ker-nel
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 338--339
+Underfull \hbox (badness 3240) in paragraph at lines 348--349
 \OT1/ptm/m/n/10 & Exam-ples", \OT1/ptm/m/it/10 Da-ta Flair\OT1/ptm/m/n/10 . [En
  l[]nia]. Dis-po-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 \OT1/ptm/m/n/10 ble a:$\OT1/pcr/m/n/10 https : / / towardsdatascience . com /
  []
 
 
-Overfull \hbox (29.31148pt too wide) in paragraph at lines 338--339
+Overfull \hbox (29.31148pt too wide) in paragraph at lines 348--349
 \OT1/pcr/m/n/10 the-[]random-[]forest-[]algorithm-[]d457d499ffcd$\OT1/ptm/m/n/1
 0 .
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 344--345
+Underfull \hbox (badness 1320) in paragraph at lines 354--355
 []\OT1/ptm/m/n/10 ``Grid Se-arch CV", \OT1/ptm/m/it/10 Scikit-Learn\OT1/ptm/m/n
 /10 . [En l[]nia]. Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 \OT1/ptm/m/n/10 po-ni-ble a:$\OT1/pcr/m/n/10 https : / / scikit-[]learn . org /
  0 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 \OT1/pcr/m/n/10 15 / modules / generated / sklearn . grid _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 \OT1/pcr/m/n/10 search . GridSearchCV . html # sklearn .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 \OT1/pcr/m/n/10 grid _ search . GridSearchCV$\OT1/ptm/m/n/10 . [Ac-ce-dit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \OT1/ptm/m/n/10 Dis-po-ni-ble a:$\OT1/pcr/m/n/10 https : / / scikit-[]learn . o
 rg /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \OT1/pcr/m/n/10 stable / modules / generated / sklearn .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \OT1/pcr/m/n/10 model _ selection . RandomizedSearchCV .
  []
 
-[9]
-<../img/tempSpain.png, id=56, 722.7pt x 361.35pt>
-File: ../img/tempSpain.png Graphic file (type png)
-<use ../img/tempSpain.png>
-Package pdftex.def Info: ../img/tempSpain.png  used on input line 355.
-(pdftex.def)             Requested size: 483.69687pt x 241.84961pt.
+[9] [10
 
-Overfull \hbox (246.84843pt too wide) in paragraph at lines 355--356
- [][] 
- []
+]
+<../img/decisionTreePredict.png, id=59, 530.73282pt x 541.27219pt>
+File: ../img/decisionTreePredict.png Graphic file (type png)
+<use ../img/decisionTreePredict.png>
+Package pdftex.def Info: ../img/decisionTreePredict.png  used on input line 366
+.
+(pdftex.def)             Requested size: 227.62204pt x 232.13959pt.
+<../img/randomForestPredict.png, id=60, 528.47438pt x 543.53062pt>
+File: ../img/randomForestPredict.png Graphic file (type png)
+<use ../img/randomForestPredict.png>
+Package pdftex.def Info: ../img/randomForestPredict.png  used on input line 373
+.
+(pdftex.def)             Requested size: 227.62204pt x 234.10341pt.
+<../img/SVMPredict.png, id=61, 541.27219pt x 541.27219pt>
+File: ../img/SVMPredict.png Graphic file (type png)
+<use ../img/SVMPredict.png>
+Package pdftex.def Info: ../img/SVMPredict.png  used on input line 382.
+(pdftex.def)             Requested size: 227.62204pt x 227.62183pt.
+<../img/XarxesNeurPredict.png, id=62, 529.98pt x 540.51938pt>
+File: ../img/XarxesNeurPredict.png Graphic file (type png)
+<use ../img/XarxesNeurPredict.png>
+Package pdftex.def Info: ../img/XarxesNeurPredict.png  used on input line 391.
+(pdftex.def)             Requested size: 227.62204pt x 232.14662pt.
+ [11
 
-<../img/tempGermany.png, id=57, 722.7pt x 361.35pt>
-File: ../img/tempGermany.png Graphic file (type png)
-<use ../img/tempGermany.png>
-Package pdftex.def Info: ../img/tempGermany.png  used on input line 362.
-(pdftex.def)             Requested size: 483.69687pt x 241.84961pt.
-
-Overfull \hbox (246.84843pt too wide) in paragraph at lines 362--363
- [][] 
- []
-
-[10
-
-
- <../img/tempSpain.png> <../img/tempGermany.png>] (TFG-InformeFinal.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <../img/decisionTreePredict.png> <../img/randomForestPredict.png> <../img/SVMP
+redict.png> <../img/XarxesNeurPredict.png>] (TFG-InformeFinal.aux) ) 
 Here is how much of TeX's memory you used:
- 6181 strings out of 492973
- 88965 string characters out of 3143877
- 196834 words of memory out of 3000000
- 9907 multiletter control sequences out of 15000+200000
+ 6209 strings out of 492973
+ 89592 string characters out of 3143877
+ 196978 words of memory out of 3000000
+ 9929 multiletter control sequences out of 15000+200000
  35739 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,1638b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/MiKTeX/fonts/enc/dvips/base/8r.enc}<E:/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><E:/MiKTeX/fonts/type1/urw/courier/ucrr8
-a.pfb><E:/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/MiKTeX/fonts/type1/urw
-/helvetic/uhvr8a.pfb><E:/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><E:/MiKTeX
-/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><
-E:/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><E:/MiKTeX/fonts/type1/urw/zapfding
-/uzdr.pfb>
-Output written on TFG-InformeFinal.pdf (10 pages, 571108 bytes).
+ 41i,11n,43p,1638b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/MiKTeX/
+fonts/enc/dvips/base/8r.enc}<E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><E:/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><E:/MiK
+TeX/fonts/type1/urw/helvetic/uhvb8a.pfb><E:/MiKTeX/fonts/type1/urw/helvetic/uhv
+r8a.pfb><E:/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><E:/MiKTeX/fonts/type1/
+urw/times/utmb8a.pfb><E:/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><E:/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb><E:/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on TFG-InformeFinal.pdf (11 pages, 1038105 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
