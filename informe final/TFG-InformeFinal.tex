@@ -76,7 +76,7 @@
 L'emisió de gasos hivernacle per part de la humanitat ha estat afectant negativament les temperatures del planeta i augmentant l'efecte del canvi climatic. L'impacte es tant elevat que cada cop hi ha temperatures més elevades, més desertificacions, augment del nivell del mar... Al llarg del temps s'han fet múltiples estudis demostrant i explicant que el canvi climàtic es un fet i que cal actuar d'immediat, pero encara hi ha molta gent reticent a admetre que existeix aquest canvi climàtic o que té relació amb l'humanitat. Aquest treball es un altre intent de demostrar que aquest fet existeix i ho fa aplicant tècniques de \textit{Machine Learning} i \textit{Big Data} per tal de relacionar aquest augment de la temperatura amb una de les seves causes principals, l'emisisó de gasos hivernacle per part de l'èsser humà.
 \\
 \\
-\textbf{Paraules clau-- } Aprenentatge Computacional, Conjunt de dades, màxim 2 línies \\
+\textbf{Paraules clau-- } Aprenentatge Computacional, Conjunt de dades, Hiperparàmetres, Regressió màxim 2 línies \\
 \\
 %\end{abstract}
 %\bigskip
@@ -86,7 +86,7 @@ L'emisió de gasos hivernacle per part de la humanitat ha estat afectant negativ
 \textbf{Abstract--} The release of greenhouse gases by the humanity it is influencing in a negative way the temperatures of the planet and increasing the effect of the climate change. The magnitude of this impact is such that the temperatures are constantly increasing, there is more desertification, the level of the sea is increasing... Over time there has been multiple studies proving and explaining that climate change is a fact and that we have to act against as soon as possible. But there are people that still don't believe in the existence of it or how this can be relate it with humanity. This project is another chance to demonstrate that climate change exists, to do it applies teh techniques of Machine Learning and Big Data in order to link the incrase of the temperatures with one of the main causes, the release of greenhouse gases by the human being.
 \\
 \\
-\textbf{Keywords-- } Machine Learning, DataSet \\
+\textbf{Keywords-- } Machine Learning, DataSet, Hyperparameters, Regresion\\
 }
 
 \bigskip
@@ -120,7 +120,8 @@ L'objectiu principal d'aquest treball és analitzar el comportament de diferents
 \item Poder determinar el millor algorisme dels diversos seleccionats i poder extreure els diferents resultats de forma gràfica i entenedora.     
 \end{itemize}
 \section {Estat de l'art}
-
+En aquests darrers anys el Big Data ha passat a ser un dels termes més utilitzats en molts àmbits més enllà de la informàtica, com per exemple, la medicina o l'economia.  
+EXPLICAR XARXES, FER ESQUEMA DE NEURONES INTERCONNECTADES, EXPLICAR TECNOLOGIES COM TENSORFLOW I SCIKIT, SPARK I PANDAS... TOT MOLT PER SOBRE I ALA
 \section {Metodologia}
 A l'hora de fer projectes hi ha un gran nombre de metodologies per escollir, però en l'àmbit de la informàtica les més utilitzades són les Agile. Això és degut a l'increment del nombre de projectes àgils acabats en èxit, respecte dels projectes on s'han aplicat les metodologies tradicionals. [2] Dins de la metodologia àgil hi ha diverses metodologies com Scrum, Kanban, XP... En aquest treball se seguirà la Kanban, a causa del fet que la metodologia Scrum no es podria aprofitar al màxim amb només una persona en el projecte. La principal raó per no escollir Scrum ha estat que molts papers els hauria de fer la mateixa persona, com el de Scrum Master, Product Owner... Algunes de les principals característiques no tindrien sentit. [3]
 
@@ -179,7 +180,7 @@ Una interpolació és el mètode matemàtic que permet construir un conjunt de p
 \end{itemize}
 Un cop editats els dos \textit{DataFrames} per separat s'han unit en un de sol i s'ha passat a un \textit{DataFrame} de Spark per poder visualitzar-lo millor. Gràcies a les eines que ofereix Databricks per fer múltiples gràfiques a partir de les dades en Spark es pot observar bé si hi ha hagut errors en aquest procés, o si hi ha algun tipus d'inconsistència en les dades. Un cop revisades les dades d'aquest últim \textit{DataFrame} s'ha exportat a un fitxer csv que serà el que utilitzarà l'algorisme de \textit{Machine Learning}.
 \subsection{Entrenament i avaluació dels algorismes}
-Aquesta fase s'ha centrat a provar diferents algorismes de regressió de la llibreria Scikit-Learn per determinar quin pot aconseguir predir millor les temperatures segons les diferents emissions de gasos hivernacle. Abans de començar a entrenar algorismes, calia entendre bé quines eren les dades que formaven el \textit{DataSet}. Encara que en la fase anterior s'hagués creat el \textit{DataSet} calia veure si les temperatures variaven molt entre diferents anys, i si era una variació constant o amb una certa aleatorietat. Per fer-ho s'ha tret un conjunt de gràfics representant de diverses formes la temperatura, com varia i quins valors pot adquirir. En la figura 1 es pot veure un diagrama de caixes representant la variancia i la mitja de les temperatures mensuals de 4 països al llarg de tot el periode de temps que es contempla en aquest treball. S'han escollit països representatius dels diferents punts d'Europa (Nord, Centre, Sud i Mar Mediterrani) per veure també la diferencia que hi ha al parlar d'un país o d'un altre.
+Aquesta fase s'ha centrat a provar diferents algorismes de regressió de la llibreria Scikit-Learn i de Keras per determinar quin pot aconseguir predir millor les temperatures segons les diferents emissions de gasos hivernacle. Abans de començar a entrenar algorismes, calia entendre bé quines eren les dades que formaven el \textit{DataSet}. Encara que en la fase anterior s'hagués creat el \textit{DataSet} calia veure si les temperatures variaven molt entre diferents anys, i si era una variació constant o amb una certa aleatorietat. Per fer-ho s'ha tret un conjunt de gràfics representant de diverses formes la temperatura, com varia i quins valors pot adquirir. En la figura 1 es pot veure un diagrama de caixes representant la variancia i la mitja de les temperatures mensuals de 4 països al llarg de tot el periode de temps que es contempla en aquest treball. S'han escollit països representatius dels diferents punts d'Europa (Nord, Centre, Sud i Mar Mediterrani) per veure també la diferencia que hi ha al parlar d'un país o d'un altre.
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=0.5\textwidth]{../img/tempMitjaVariacioPaisos}
@@ -189,9 +190,7 @@ Aquesta fase s'ha centrat a provar diferents algorismes de regressió de la llib
 
 A més d'analitzar el \textit{DataSet} també ha estat necessari passar els països a dades numèriques, ja que Scikit-Learn no permet \textit{Strings} per entrenar els seus algorismes [14]. Aquesta acció s'havia de fer d'una manera que no convertís les variables en categòriques, és a dir, que l'algorisme no entengués que ser d'un país o d'un altre tenia una relació numèrica. Per fer-ho s'ha utilitzat un mètode de la mateixa llibreria de SciKit-Learn que transforma els \textit{String} en variables binàries, per tant si és d'un país, serà un 1 i si no ho és, serà 0.
 
-Un cop sabent que el \textit{DataSet} era adequat per fer aquestes anàlisis, s'ha començat a escollir i entrenar diversos algorismes de regressió. Els algorismes de regressió són tasques d'aprenentatge inductiu [2]. Es diferencien en les tasques de classificació a causa del fet que en la regressió es prediuen valors numèrics, en canvi en la classificació es prediuen etiquetes de classe. La tasca de regressió consisteix en l'assignació de variables sobre un domini donat, aquestes variables estan descrites per atributs discrets. A partir d'aquest conjunt de dades, els algorismes de regressió assignen valors numèrics a instàncies d'aquest domini amb la finalitat d'aconseguir una aproximació a partir de valors que es donen~[15].
-
-Dins de la regressió s'ha decidit agafar un conjunt de mètodes que es considerin dins de l'estat de l'art actual en temes de \textit{Machine Learning} (ML).
+Un cop sabent que el \textit{DataSet} era adequat per fer aquestes anàlisis, s'ha començat a escollir i entrenar diversos algorismes de regressió. Els algorismes de regressió són tasques d'aprenentatge inductiu [2]. Es diferencien en les tasques de classificació a causa del fet que en la regressió es prediuen valors numèrics, en canvi en la classificació es prediuen etiquetes de classe. La tasca de regressió consisteix en l'assignació de variables sobre un domini donat, aquestes variables estan descrites per atributs discrets. A partir d'aquest conjunt de dades, els algorismes de regressió assignen valors numèrics a instàncies d'aquest domini amb la finalitat d'aconseguir una aproximació a partir de valors que es donen~[15]. Dins de la regressió s'ha decidit agafar un conjunt de mètodes que es considerin dins de l'estat de l'art actual en temes de \textit{Machine Learning}.
 
 \subsubsection{Arbres de Decisió:} Els arbres de decisió són models predictius no linears que serveixen per fer tasques de regressió i tasques de classificació. La idea és simple, si es vol predir una classe o resposta Y a partir d'entrades X cal fer créixer un arbre binari. En els nodes d'aquest arbre binari s'aplica un test sobre l'input que es consideri més rellevant, per exemple en la figura 2 es comença preguntant sobre la contaminació de CO$_2$. En aquest test es fa una pregunta binària de si o no, si la resposta és si es passarà al fill de la dreta, si la resposta és no, es passarà al fill de l'esquerra. A partir d'aquí, es van fent tests en cada un dels nodes, l'input que s'agafa per formular la pregunta pot variar segons les dades que s'estiguin treballant. Com es mostra a la figura 2 si s'envà cap a l'esquerra, es passa a testejar l'input de les emissions de CH$_4$. A la figura també es pot observar com les prediccions sobre quina és la temperatura final s'acaben fent en arribar a les fulles de l'arbre. Aquestes prediccions vénen donades pel conjunt de totes les preguntes que s'han anat formulant en els seus antecessors [16].
 \begin{figure}[!h]
@@ -223,7 +222,7 @@ Cada un dels kernels té els seus paràmetres que modifiquen el seu comportament
 \item \textbf{Gamma:} El comportament de SVM es molt sensible a aquest parametre ja que indica el radi d'influencia que tenen els \textit{Support Vector} a la resta del conjunt de dades. Per una banda, si aquest parametre es molt petit, l'algorisme no podrà entendre la complexitat total del conjunt de dades i es comportaria d'una forma semblant a un kernel linear, ja què aquest parametre li indicarà que pot agrupar la majoria d'ells amb el valor dels punts \textit{Support Vector}. Per l'altra, si es molt gran, es produiria una situació d'overfitting. El rang quedaria limitat al propi \textit{Support Vector} i no podria agrupar cap dels punts amb ell, per tant també produiria un error molt elevat.
 \end{itemize}
 \subsubsection{Random Forest:}
-El Random Forest és un dels mètodes de ML que s'està utilitzant més en l'actualitat, com els altres dos, es pot utilitzar tant per classificació com per regressió. La idea principal del Random Forest és la combinació de molts arbres de decisió iguals relacionats entre ells, això ho fa gràcies al fet que es basa en la idea que la combinació de molts algoritmes iguals aconsegueix millors resultats que un de sol molt potent. Com es pot veure a la figura 4, que representa un Random Forest amb dos arbres, el mètode crea dos arbres de decisió i després combina els resultats de cada un d'ells mitjançant el Bagging Method o un altre algoritme segons la implementació que s'esculli [19].
+El Random Forest és un dels mètodes de ML que s'està utilitzant més en l'actualitat, com els altres dos, es pot utilitzar tant per classificació com per regressió. La idea principal del Random Forest és la de combinar diversos arbres de decisió iguals relacionats entre ells. Es basa en la idea de que la combinació de molts algoritmes iguals aconsegueix millors resultats que un de sol molt potent. Com es pot veure a la figura 4, que representa un Random Forest amb dos arbres, el mètode crea dos arbres de decisió i després combina els resultats de cada un d'ells mitjançant el \textit{Bagging Method} o un altre algoritme segons la implementació que s'esculli [19].Aquest mètode combina prediccions de múltiples algoritmes per aconseguir prediccions més exactes. El \textit{Bagging} es útil quan hi ha algoritmes amb una variancia molt elevada, com els arbres de decisió, i basicament aplica el mètode anomenat \textit{Bootstrap} a aquests algorismes.\textit{Bootstrap} s'encarrega d'agafar un nombre determinat de subconjunts de dades, dins del conjunt, i calcula la mediana del subconjunt. Un cop té totes les medianes agafa la mitjana de totes elles aconseguint el resultat final. 
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=0.5\textwidth]{../img/randomForest}
@@ -231,29 +230,58 @@ El Random Forest és un dels mètodes de ML que s'està utilitzant més en l'act
 	\label{fig-RandomForest}
 \end{figure}
 
-Aquest mètode té pràcticament els mateixos paràmetres que un arbre de decisió però amb petites diferències que optimitzen cada una de les decisions preses per l'arbre. Com s'ha dit anteriorment els arbres necessiten escollir quina pregunta s'ha de fer en cada node per aconseguir informació a l'hora de separar les variables, el Random Forest modifica aquesta elecció. En lloc d'escollir la millor opció de totes, agafa un subconjunt dels inputs que arriben al node i escull la millor dins d'aquest subconjunt [20]. El Random Forest permet editar molts paràmetres entre els quals destaquen el nombre d'arbres de decisió que es combinaran, el nombre d'inputs que s'inclouran en el subconjunt aleatori, també es pot escollir tots els paràmetres per editar els arbres de decisió o fins i tot l'algorisme que combinarà els seus resultats.
-EXPLICAR MILLOR
-\subsubsection{Xarxes Neuronals}
+El Random Forest té pràcticament els mateixos paràmetres que un arbre de decisió però amb petites diferències que optimitzen cada una de les decisions preses per l'arbre. Com s'ha dit anteriorment els arbres necessiten escollir quina pregunta s'ha de fer en cada node per aconseguir informació a l'hora de separar les variables. Aquesta situació fa que si s'agrupessin molts arbres junts tots acabarien sent practicament iguals, ja que tots escollirien la mateixa manera de separar. Aquest fet no aportaria una millora molt gran ja que al final el resultat seria pràcticament el mateix per tots els arbres i a l'hora d'agrupar-los la mitjana acabaria resultant aquell nombre. Per evitar això el Random Forest separa els inputs en subconjunts i cada arbre ha d'escollir de forma aleatoria el millor input per separar les dades. Així cada arbre acabarà tenint un subconjunt diferent d'inputs i els resultats seràn més dispersos, que permetrà adaptar-se més a qualsevol conjunt de dades a l'hora de predir [20].
 
-EXPLICAR XARXES, FER ESQUEMA DE NEURONES INTERCONNECTADES, EXPLICAR TIPUS DE CAPES PRINCIPALS I ALGO DEL KERAS I PERQUE NO SCIKIT LEARN
+El Random Forest permet editar molts paràmetres entre els quals destaquen:
+ \begin{itemize}
+\item \textbf{N\_estimators:} Permet modificar el número d'arbres de decisió abans de començar a aplicar el \textit{Bagging Method}.
+\item \textbf{Min\_sample\_leaf:} Es igual al dels arbres de decisió i serveix per determinar el mínim número de mostres que es necessita per ser una fulla.
+\item \textbf{Max\_depth:} Determina la profunditat màxima dels arbres de decisió.
+\item \textbf{Min\_samples\_split:} Es igual al dels arbres de decisió i serveix per determinar el mínim número de mostres que es necessita per dividir un node.
+\end{itemize}
+
+\subsubsection{Xarxes Neuronals}
+Actualment les xarxes neuronals són dels algorismes més prometedors en l'àmbit del \textit{Machine Learning} o \textit{Deep Learning}. Sobretot destaquen per la seva versatilitat, escalabilitat i una gran potència de còmput. Les més utilitzades, i que han demostrat millors resultats, han sigut les \textit{Multi Layer Perceptron} o MLP. Aquest tipus de xarxes es basen en la combinació de \textit{Perceptrons}, una de les arquitectures de xarxes neuronals més simples formada per una capa de \textit{Threshold Logic Unit} o TLU. Al cap i a la fi una MLP està formada per diverses capes de TLU amb una capa destinada a rebre les dades d'entrada, un conjunt de capes internes i una capa destinada a treure les prediccions [21]. Tal i com es pot veure a la figura 5 totes les neurones que formen part de la xarxa estan completament interconnectades entre elles, excepte l'última capa que només retorna els resultats. Aquí es pot veure com les capes poden tenir un número de neurones diferent, tot i això es recomana acabar amb una sola neurona si al final s'ha de retornar una unica predicció. També es pot observar els diferents tipus de capes dins d'una xarxa neuronal simple.
+ \begin{figure}[!h]
+\centering
+	\includegraphics[width=0.5\textwidth]{../img/XarxaNeur}
+	\caption{Xarxa Neuronal de 4 capes}
+	\label{fig-XarxaNeur}
+\end{figure}
+
+Al començament es va decidir utilitzar les xarxes que ofereix la llibreria Scikit-Learn, de on s'han tret tots els algorismes anteriors, pero en aquest hi havia fortes limitacions que no permetien crear una xarxa decent que pogués demostrar totes aquestes característiques que la fan destacar. El principal inconvenient va sorgir quan a l'hora d'implementar la xarxa la llibreria no deixa editar cada capa individualment sinó tot el conjunt a la vegada, això limita molt el seu desenvolupament ja que moltes xarxes necessiten capes de diferent tipus, amb diferents neurones per poder exprimir al màxim el seu potencial. 
+
+Degut a aquests inconvenients es va decidir buscar una alternativa millor, i aquesta ha acabat sent la API de Keras. Keras treballa sobre TensorFlow, un framework dedicat especialment pel Machine Learning que es troba en l'estat de l'art d'aquest àmbit, però nomès fica una capa per sobre d'ell per tal de facilitar l'implementació d'algorismes mantenint totes les avantatges del framework. Amb aquesta API si que s'ha pogut probar diferents models de xarxes amb capes de diferents neurones i amb diferents funcions d'activació. 
+
+Una xarxa neuronal és molt més extensa d'editar que els altres algorismes, degut a la seva gran quantitat d'hiperparametres i la diversitat entre les combinacions entre ells. Per començar s'ha hagut de limitar la recerca a xarxes simples, degut a que no es podia dedicar masses hores a un sol algorisme. En aquest cas nomès s'han contemplat els models sequencials de Keras, que funcionen sense problemes per tots els casos i amb bons resultats. També s'ha hagut de tenir una limitació en el número de capes per tal de no complicar massa la xarxa, en aquest cas no s'ha volgut superar les 5 capes, més que suficient per la quantitat de dades que conté el \textit{DataSet}. A partir d'aquí tota la resta d'hiperparametres s'ha deixat sense limitacions.
+
+Entre els paràmetres hi ha uns quants que cal destacar per l'afectació que té en el comportament d'una xarxa:
+ \begin{itemize}
+\item \textbf{Activation:} Aquest parametre es el més rellevant de tots ja que decideix quan es considera una neurona activada, i quan no. Per exemple es pot ficar un límit i si una neurona el supera es considera activada, si no es considera desactivada, aquest seria l'activació binaria o \textit{Step Function}. També hi ha la linear on l'activació es proporcional als inputs o neurones del sistema. Una altra bastant utilitzada es la Relu que té un comportament semblant a al linear pero considerant com a funció d'activació qualsevol valor positiu superior a 0 [21].
+\item \textbf{Batch\_size:} Es el nombre de mostres que es propagaran al llarg de la xarxa. Per exemple, si es té un conjunt de 1000 dades, pero aquest parametre es 100, s'aniran agafant subconjunts de 100 i s'aniran propagant per la xarxa. Com més petit sigui el valor més inexacte serà la xarxa.
+\item \textbf{Ephochs:} Són el número de cops que es propagaran totes les dades per la xarxa. Si es té un batch\_size molt petit i un epoch molt gran es necessitarna moltes iteracions per acabar d'entrenar-la.
+\end{itemize}
+
 \subsubsection{SearchCV}
 D'aquests algorismes s'ha fet un entrenament amb els paràmetres per defecte marcats per la llibreria de Scikit-Learn i després s'ha utilitzat dues tècniques, molt utilitzades en l'àmbit del ML per trobar el conjunt de paràmetres més òptim per cada algorisme. Aquestes tècniques tenen com a objectiu esprémer al màxim els algorismes i aconseguir l'aproximació més precisa de la temperatura. Aquestes tècniques han estat:
  \begin{itemize}
-\item \textbf{Grid SearchCV:} Implementa una recerca exhaustiva dels paràmetres editables d'un mètode de predicció. Un cop fet aquest anàlisis entrena l'algorisme amb la millor combinació de paràmetres que ha trobat. Amb cada una de les combinacions fa 3 iteracions i després utilitza una fórmula per avaluar el resultat obtingut, aquest pot ser el Mean Absolute Error o MAE, Mean Squared Error [21]... Les iteracions dels paràmetres les fa en ordre ascendent, comença pels paràmetres més petits i va augmentant-los fins al límit que se l'hi ha establert.
-\item \textbf{Randomized SearchCV:} És un mètode molt semblant al Grid Search. També fa una recerca sobre els millors paràmetres que aconsegueixin treure el millor resultat del mètode. La principal diferència és que en lloc de fer-ho de forma iterativa i ascendent ho fa de forma iterativa però aleatòriament. Això permet que es puguin provar valors molt elevats sense necessitat de què la recerca augmenti exponencialment el temps necessari per acabar [22].
+\item \textbf{Grid SearchCV:} Implementa una recerca exhaustiva dels paràmetres editables d'un mètode de predicció. Un cop fet aquest anàlisis entrena l'algorisme amb la millor combinació de paràmetres que ha trobat. Amb cada una de les combinacions fa 3 iteracions i després utilitza una fórmula per avaluar el resultat obtingut, aquest pot ser el Mean Absolute Error o MAE, Mean Squared Error [22]... Les iteracions dels paràmetres les fa en ordre ascendent, comença pels paràmetres més petits i va augmentant-los fins al límit que se l'hi ha establert.
+\item \textbf{Randomized SearchCV:} És un mètode molt semblant al Grid Search. També fa una recerca sobre els millors paràmetres que aconsegueixin treure el millor resultat del mètode. La principal diferència és que en lloc de fer-ho de forma iterativa i ascendent ho fa de forma iterativa però aleatòriament. Això permet que es puguin provar valors molt elevats sense necessitat de què la recerca augmenti exponencialment el temps necessari per acabar [23].
 \end{itemize}
 \section{Resultats}
-Per aconseguir els resultats s'ha hagut d'aplicar tant el Grid Search com el Randomized Search amb les mateixes iteracions als tres algorismes escollits, amb els mateixos conjunts de dades per cada un d'ells. En tots els casos els millors resultats els ha donat la tècnica de Randomized Search. Això s'ha donat a causa del fet que la tècnica pot editar paràmetres molt més grans i diversos. El Grid Search no pot fer el mateix pel fet que el Randomized utilitza iteracions de valors aleatoris, dins d'un rang molt més gran de valors. En canvi, el Grid Search està limitat a anar fent proves seqüencialment, començant pels valors més petits i fins a arribar al màxim del rang que s'ha establert. Al cap i a la fi el Grid Search està limitat per la quantitat elevada de càlculs que necessita fer. Per exemple, ficant el mateix nombre de variables, amb el mateix rang de valors en cada una d'elles, per arribar al valor màxim el Grid Search ha de fer X iteracions prèvies (on X pot ser un número molt elevat d'iteracions), en canvi el Randomized ho pot fer a la primera sense passar per totes les anteriors.
+Per aconseguir els millors resultats amb cada un dels algorismes s'han fet proves exhaustives amb el Randomized Search. En el cas de les Xarxes Neuronals no s'ha pogut utilitzar el mateix metode degut a que 
+Per aconseguir els resultats s'ha hagut d'aplicar tant el Grid Search com el Randomized Search amb les mateixes iteracions als quatre algorismes escollits, amb els mateixos conjunts de dades per cada un d'ells. En tots els casos els millors resultats els ha donat la tècnica de Randomized Search. Això s'ha donat a causa del fet que la tècnica pot arribar a paràmetres molt més grans i diversos. El Grid Search no pot fer el mateix pel fet que el Randomized utilitza iteracions de valors aleatoris, dins d'un rang molt més gran de valors. En canvi, el Grid Search està limitat a anar fent proves seqüencialment, començant pels valors més petits i fins a arribar al màxim del rang que s'ha establert. Al cap i a la fi el Grid Search està limitat per la quantitat elevada de càlculs que necessita fer. Per exemple, ficant el mateix nombre de variables, amb el mateix rang de valors en cada una d'elles, per arribar al valor màxim el Grid Search ha de fer X iteracions prèvies (on X pot ser un número molt elevat d'iteracions), en canvi el Randomized ho pot fer a la primera sense passar per totes les anteriors.
 
-Amb el Randomized s'ha aconseguit els millors resultats per cada un dels algorismes aplicats. Com es pot veure a la figura 4 l'algorisme que ha aconseguit aproximar-se més als valors originals ha estat el Random Forest, en canvi el pitjor ha estat l'algorisme de les Support Vector Machine.
+A la taula número 3 es pot veure una comparativa amb els 4 algorismes anal·litzats, la millor combinació d'hiperparàmetres per cadascun d'ells i el Mean Absolut Error de cada una de les combinacions. EXPLICAR TAULA I PERQUE MAE.
+
+Com es pot veure a la figura 4 l'algorisme que ha aconseguit aproximar-se més als valors originals ha estat el Random Forest, en canvi el pitjor ha estat l'algorisme de les Support Vector Machine.
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=0.5\textwidth]{../img/comparacioMetricsAlgs}
 	\caption{MAE dels mètodes}
 	\label{fig-Metrics}
 \end{figure}
-
-Veient les comparacions amb les temperatures reals de la figura 5 es pot veure com les SVM no s'està adaptant bé a cap canvi de temperatura, bàsicament es manté constant en 10 graus excepte en tres ocasions que sembla que intenta aproximar-se més a la temperatura real. Això pot ser degut a l'elecció de kernel o del paràmetre C. Tal com es mostra a la gràfica les SVM no estan tenint un resultat gens esperat, els resultats poden venir donats també per una incompatibilitat entre el conjunt de dades i l'algorisme. Els altres dos algorismes si que s'aproximen molt en les seves prediccions, fallen entre 1 i 1.5 graus en la majoria de temperatures.
+ EXPLICAR COMPORTAMENT SVM I XARXES I COMPARATIVA DEL COMPORTAMENT DE TOTS (LES XARXES FALLEN MOLT EN ALGUNE SI ALTRES DIUEN EXACTAMENT EL MATEIX)
 
 Aquests resultats són molt bons a causa del fet que l'error és bastant baix, considerant que la temperatura varia d'un any per l'altre entre 2 i 4 graus. No obstant això, els dos mètodes tenen un comportament una mica diferent a l'hora de fer prediccions. El Random Forest manté bastant la constància amb les temperatures que no varien massa, en canvi sí que falla bastant quan hi ha un canvi brusc de temperatura. Per l'altra banda els Decision Tree fallen en la gran majoria de prediccions però amb un error baix en tots ells, això fa que el MAE d'ambdós sigui molt semblant, encara que el Random Forest acabi tenint un més baix.
 \begin{figure}[!h]
@@ -264,7 +292,7 @@ Aquests resultats són molt bons a causa del fet que l'error és bastant baix, c
 \end{figure}
 
 \section {Conclusions}
-
+En aquest treball s'ha pogut complir tots els objectius proposats, excepte el de trobar la millor configuració de cada un d'ells. 
 \section{Treball Futur}
 Com a idees per continuar aquest TFG es podria fer la mateixa anàlisi de les dades però en un àmbit mundial en lloc d'Europeu. Segurament els resultats siguin encara millors gràcies a un nombre més gran de dades a analitzar. Degut a que s'han vist diversos algorismes i s'ha hagut de fer el propi \textit{Dataset}, no ha sigut possible treballar amb molt de detall algorismes dins de l'estat de l'art del ML,com les SVM i les Xarxes Neuronals. Una línia de treball molt interessant pot ser fer un anàlisis exhaustiu amb algun d'aquests algorismes en un \textit{Dataset} ja preparat. Si es pot exhaustivament poden sortir resultats molt interessants amb alguns \textit{Datasets} del canvi climàtic, o tambè d'un altre àmbit.
 
@@ -311,15 +339,17 @@ Alex J. Smola, B. Schölkopf, \textit{A tutorial on support vector regression}. 
 \bibitem{20}
 L. Breiman, \textit{Random Forests}. Statistics Department, University of California Berkeley. 2001.
 \bibitem{21}
-``Grid Search CV", \textit{Scikit-Learn}. [En línia]. Disponible a:\url{https://scikit-learn.org/0.15/modules/generated/sklearn.grid_search.Grid SearchCV.html#sklearn.grid_search.Grid SearchCV}. [Accedit Desembre 22, 2018].
+A.Géron, \textit{Hands-On Machine Learning with Scikit-Learn \& TensorFlow}. Sebastopol, CA: O’Reilly Media, 2017. Capitol 10.
 \bibitem{22}
+``Grid Search CV", \textit{Scikit-Learn}. [En línia]. Disponible a:\url{https://scikit-learn.org/0.15/modules/generated/sklearn.grid_search.Grid SearchCV.html#sklearn.grid_search.Grid SearchCV}. [Accedit Desembre 22, 2018].
+\bibitem{23}
 ``Randomized Search CV", \textit{Scikit-Learn}. [En línia]. Disponible a:\url{https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.Randomized SearchCV.html}. [Accedit Desembre 22, 2018].
 
 \end{thebibliography}
 \clearpage
 \section{Annex}
  \begin{itemize}
-\item \textbf{Temperatures Espanya:}
+\item \textbf{Temperatures Italia:}
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=1\textwidth]{../img/tempSpain}
