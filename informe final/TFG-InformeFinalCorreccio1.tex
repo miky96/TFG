@@ -158,7 +158,7 @@ Al començament, s'han obtingut dos conjunts de dades:
 
 El primer està format de quatre columnes, tal com es mostra a la taula 1:
 \begin{enumerate}
-\item La \textbf{data}, en format String amb dies mesos i anys.
+\item La \textbf{data}, en format Date amb dies mesos i anys.
 \item La \textbf{temperatura} mesurada amb un marge d'error del 95\%, serà el valor que es donarà per vàlid al llarg del treball. 
 \item El \textbf{nom del país} al qual s'està mesurant les temperatures.
 \item El \textbf{marge d'error} que pot tenir la temperatura de la segona columna.
@@ -288,7 +288,7 @@ Cada un dels kernels té els seus paràmetres que modifiquen el seu comportament
 \end{description}
 
 \subsubsection{Random Forest}
-El Random Forest és un dels mètodes de ML que s'està utilitzant més en l'actualitat, com els altres dos, es pot utilitzar tant per classificació com per regressió. La idea principal del \textit{random forest} és la de combinar diversos arbres de decisió relacionats entre ells. Es basa en la idea que la combinació de molts algoritmes simples aconsegueix millors resultats que un de sol, encara que aquest sigui molt potent. Com es pot veure a la figura 4, que representa un Random Forest amb dos arbres, el mètode crea dos arbres de decisió i després combina els resultats de cada un d'ells mitjançant el \textit{bagging method} o un altre algoritme segons la implementació que s'esculli [17]. Aquest mètode combina prediccions de múltiples algoritmes per aconseguir una resposta final més exacta. El \textit{bagging} és útil quan hi ha algoritmes amb una variància molt elevada, com els arbres de decisió, i bàsicament aplica el mètode anomenat \textit{bootstrap} a aquests algoritmes.\textit{bootstrap} s'encarrega d'agafar un nombre determinat de subconjunts de dades, dins del conjunt, i calcula la mediana del subconjunt. Un cop té totes les medianes agafa la mitjana de totes elles aconseguint el resultat final.
+El Random Forest és un dels mètodes de ML que s'està utilitzant més en l'actualitat, com els altres dos, es pot utilitzar tant per classificació com per regressió. La idea principal del \textit{random forest} és la de combinar diversos arbres de decisió relacionats entre ells. Es basa en la idea que la combinació de molts algoritmes simples aconsegueix millors resultats que un de sol, encara que aquest sigui molt potent. Com es pot veure a la figura 4, que representa un Random Forest amb dos arbres, el mètode crea dos arbres de decisió i després combina els resultats de cada un d'ells mitjançant el \textit{bagging method} o un altre algoritme segons la implementació que s'esculli [17]. Aquest mètode combina prediccions de múltiples algoritmes per aconseguir una resposta final més exacta. El \textit{bagging} és útil quan hi ha algoritmes amb una variància molt elevada, com els arbres de decisió, i bàsicament aplica el mètode anomenat \textit{bootstrap} a aquests algoritmes. \textit{Bootstrap} s'encarrega d'agafar un nombre determinat de subconjunts de dades, dins del conjunt, i calcula la mediana del subconjunt. Un cop té totes les medianes agafa la mitjana de totes elles aconseguint el resultat final.
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=0.5\textwidth]{../img/randomForest}
