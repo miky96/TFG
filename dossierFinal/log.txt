@@ -1,0 +1,53 @@
+2c3cd2a Documents de la primera enterga i datasets sense preprocessar
+da89137 Foto per ensenyar com es la taula dels gasos
+f8ddbc6 Canviat el nom dels fitxers per la 2a entrega
+068f2e0 Creada captura Kanban + revisio planificacio i objectius acabada
+4c01c01 Avançar informe, totes evolucions i explicar DataSets
+4fb7017 Explicats els datasets
+21a9b70 Acabada 2a Entrega
+ac5ac21 Merge pull request #1 from miky96/2aEntrega
+1489f39 Primer contacte amb Jupyter i lectura de fonts de ML
+395f9ee Entrenament arbre pero amb error de string
+eed6dcc Inici de l'algorisme d'arbre de decisions i reorganitzacio de les carpetes
+e9f18bd Agrupar codi per fer les millores en les seguents cel·les
+bb1e635 Afegit GridSearchCV
+2864786 Afegit RandomizedCV
+9eef5ac Arreglat RandomizedCV
+03c7c5d Feta revisio dataset i OHE per dades categoriques a mes de redistribucio del directori
+f707c61 Modificat DataSet ficant els gasos com columnes independents i arreglat el decision tree, ara ja falla mes
+e0b8bf3 Imprimits Arbres amb GS i RS
+fe096ac Creat Decisions Tree petits, depth 4 i 5 per poder fer plot per l'informe. Tambe s'ha escrit mes comentaris sobre informe parcial 3
+fdd3599 Aplicat Algorisme SVM
+cd9cffd Creat primer randomForest amb valors default
+97feb24 llegit temes sobre SVM
+517e991 Afegit el randomized i el gridsearch pero segueix fallant molt
+6f172e2 Afegides captures amb resultats GSCV i RSCV
+6f22d55 Acabada funcionalitat principal del SVM
+58fcf60 Fets els canvis per randomForest i agregat mes probes del Decision Tree
+1b7daed Fetes modificacions al grid i randomized search
+19b35a7 Fetes modificacions al grid i randomized search
+28f2811 Acabada 3a Entrega
+ae9f67b borrat temporal
+50678ca Created first networks
+456217c Primeres implementacions de Xarxes Neuronals en Keras i fet un primer Grid Search per optimitzar parametres
+7fb7b12 Fetes noves proves i trobada millor combinació
+aaab6ee Trobat document on s'explica el Dropout de les Xarxes Neuronals
+58652ee Comença't informe final
+d70c137 Agrupada tota la informació interessant dels altres tres informes
+8f3590f Afegides les Xarxes neuronals als plots, arreglades les SVM i extret Box Plots de temperatures de 4 països en diferents llocs d'Europa
+160675d Acabats gràfics sobre els algorismes, millorat el rendiment de XN i SVM, avançat l'informe acabant l'introducció i començat l'abstract
+4ca75a5 Fet nou grafic per analitzar comportament XN
+e74d638 Canviada introducció, i fet abstract (falta acabar versió en anglès
+0abb427 Acabat abastract i començat treball futur
+9794c4f Creat gràfic nou de kernels SVM i millorat SVM i arreglar diverses seccions com les fonts
+67389ee Nou codi per grafic kernels SVM
+bbdf1ff Acabades les SVM
+c03b455 Acabat desenvolupament del treball i començat estat de l'art
+9668bed acabat tot menys estat de l'art i revisar faltes
+a29e837 Acabat borrador del Informe Final
+d6393d7 Acabats tots els canvis que s'han demanat
+b976975 Modifcats grafics i redaccio informe fins a entrenament algorismes
+0767fa0 Acabades totes les correccions
+ee73ae2 Modificats checkpoints fitxers jupyter
+7a6cbd1 Arreglat errors petits de ortografia i redacció
+b21a8dd Corregit error amb puntuació

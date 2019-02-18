@@ -1,0 +1,155 @@
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+  	.all {
+		max-width:800px;
+		margin: auto;
+		padding: 10px;
+	}
+	.title {
+		max-width:800px;
+		margin: auto;
+		text-align:center;
+		font-size: 23;
+	}
+
+	.content{
+		padding=20px;
+	}
+	ul.navigator {
+		list-style-type: none;
+	} 
+		
+	ul li.file:before {
+		content: '';
+		display: inline-block;
+		height: 15px;
+		width: 15px;
+		background-size: 15px;
+		background-repeat: no-repeat;
+		margin-right: 2px;
+	}
+
+	ul li.filepng:before {
+		background-image: url("icon_png.png");
+	}	
+	li.normal{
+		list-style-type: bullet;
+	}
+	
+	html {
+	   color: #000;
+	   font-family: Arial;
+	}
+
+	h3{
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+
+	h4{
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+	
+	a {
+		background-color: transparent;
+		text-decoration: none;
+		font-weight:bold;
+	}
+	a:link {
+		color: darkblue;
+	}
+	
+	a:visited {
+		color: darkblue;
+
+	}
+
+	.buto {
+	  background-color: darkblue; /* Green */
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	}
+	</style>
+	
+	<script>
+	function goBack() {
+		window.history.back();
+	}
+	</script>
+    <title>Dossier TFG</title>
+  </head>
+
+  <body bgcolor=white>
+	<div class="all">
+		<div class="title">
+			<h2>Anàlisis de la relació entre les emissions de gasos hivernacle i l'augment de la temperatura mitjançant algorismes i tecnologies de Big Data</h2>
+		</div>
+
+		<div class="content">
+			<h3> Informes</h3>
+			<p>Imatges extretes durant el TFG</p>
+			<button class="buto" onclick="goBack()">Enrere</button>
+			<ul class="navigator">
+				<li class="file filepng"> <a href="./analisiNN.png">Loss Xarxa Neuronal</a> Pèrdua de la xarxa neuronal</li>
+				<br>
+				<li class="file filepng"> <a href="./arbreDecisioSimple.png">DiagramaArbre</a> Diagrama d'arbe de decisió</li>
+				<br>				
+				<li class="file filepng"> <a href="./comparacioAlgs.png">Prediccions tots algoritmes</a> Agrupació de totes les prediccions</li>
+				<br>				
+				<li class="file filepng"> <a href="./comparacioMetricsAlgs.png">MAE Algoritmes</a> Valor del MAE de tots els algoritmes</li>
+				<br>
+				<li class="file filepng"> <a href="./comprobacioRegressorTree.png">Comparacio DT</a>Comparacio entre temp reals i prediccions</li>
+				<br>
+				<li class="file filepng"> <a href="./comprobacioRegressorTreeGSCV.png">ValorsDTGSCV</a> Valors del arbre de decisió amb grid search</li>
+				<br>
+				<li class="file filepng"> <a href="./comprobacioRegressorTreeRSCV.png">Valors DTRSCV</a> Valors del arbre de decisió amb randomized search</li>
+				<br>
+				<li class="file filepng"> <a href="./datasetContaminacio.png">Mostra DataSet Emissions</a> Exemple de com es el DataSet de les emisions</li>
+				<br>
+				<li class="file filepng"> <a href="./decisionTreePredict.png">Prediccions DT</a> Prediccions del Arbre de decisió</li>
+				<br>
+				<li class="file filepng"> <a href="./diagrama_Gantt.png">Diagrama Gantt TFG </a>Diagrama de Gantt del projecte</li>
+				<br>
+				<li class="file filepng"> <a href="./kanban.png">Captura Kanban </a>Mostra del procediment Kanban</li>
+				<br>
+				<li class="file filepng"> <a href="./KernelsSVM.png">KernelsSVM</a> Gràfic amb el comportament de cada kernel de la SVM</li>
+				<br>
+				<li class="file filepng"> <a href="./randomForest.png">Diagrama RF</a>Diagrama de RF simple</li>
+				<br>
+				<li class="file filepng"> <a href="./randomForestPredict.png">Prediccions RF</a>Prediccions del Random Forest</li>
+				<br>
+				<li class="file filepng"> <a href="./regressorDTPigual4.png">ArbreImpres4</a>Arbre de decisio amb profunditat 4</li>
+				<br>
+				<li class="file filepng"> <a href="./SVMGridSearchCV.png">SVM GSCV</a>Valors SVM amb Grid SearchCV</li>
+				<br>
+				<li class="file filepng"> <a href="./SVMPredict.png">Prediccions SVM</a> Prediccions de les Support Vector Machine</li>
+				<br>
+				<li class="file filepng"> <a href="./SVMRandomizedSearchCV.png">SVM RSCV</a>Valors SVM amb Randomized SearchCV</li>
+				<br>
+				<li class="file filepng"> <a href="./tempAustria.png">temperatures Austria</a> Temperatures del gener a Austria</li>
+				<br>
+				<li class="file filepng"> <a href="./tempGermany.png">temperatures Alemanya</a> Temperatures del gener a Alemanya</li>
+				<br>
+				<li class="file filepng"> <a href="./tempMitjaVariacioPaisos.png">Grafic Temps</a> Grafic de caixes de 4 països</li>
+				<br>
+				<li class="file filepng"> <a href="./tempSpain.png">temperatures Espanya</a> Temperatures del gener a Espanya</li>
+				<br>
+				<li class="file filepng"> <a href="./XarxaNeur.png">Xarxa Neuronal Simple</a> Model de xarxa neuronal amb 4 capes</li>
+				<br>
+				<li class="file filepng"> <a href="./XarxesNeurPredict.png">Prediccions XN</a> Prediccions de la Xarxa Neuronal</li>
+			</ul>
+		</div>
+		 <button class="buto" onclick="goBack()">Enrere</button>
+	</div>
+  </body>
+</html>
