@@ -1,0 +1,122 @@
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+  	.all {
+		max-width:800px;
+		margin: auto;
+		padding: 10px;
+	}
+	.title {
+		max-width:800px;
+		margin: auto;
+		text-align:center;
+		font-size: 23;
+	}
+
+	.content{
+		padding=20px;
+	}
+
+	.canvis {
+		padding=20px;
+		border-top: 3px black;
+	}
+	
+	
+	ul {
+		list-style-type: none;
+	} 
+	
+	ul li.folder:before {
+		content: '';
+		display: inline-block;
+		height: 15px;
+		width: 15px;
+		background-size: 15px;
+		background-image: url("icon_folder.png");
+		background-repeat: no-repeat;
+		margin-right: 2px;
+	}
+	
+	ul li.file:before {
+		content: '';
+		display: inline-block;
+		height: 15px;
+		width: 15px;
+		background-size: 15px;
+		background-repeat: no-repeat;
+		margin-right: 2px;
+	}
+	ul li.filetxt:before {
+		background-image: url("icon_txt.png");
+	}
+	html {
+	   color: #000;
+	   font-family: Arial;
+	}
+
+	h3{
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+	
+	h4{
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+	
+	a {
+		background-color: transparent;
+		text-decoration: none;
+		font-weight:bold;
+	}
+	a:link {
+		color: darkblue;
+	}
+	
+	a:visited {
+		color: darkblue;
+
+	}
+	</style>
+	
+	<script>
+	function goBack() {
+		window.history.back();
+	}
+	</script>
+
+    <title>Dossier TFG</title>
+  </head>
+
+  <body bgcolor=white>
+	<div class="all">
+		<div class="title">
+			<h2> Anàlisis de la relació entre les emissions de gasos hivernacle i l'augment de la temperatura mitjançant algorismes i tecnologies de Big Data</h2>
+		</div>
+		
+		
+		<div class="content">
+			<h3> Índex del Dossier </h3>
+			<ul>
+				<li class="folder"> <a href="./informes/informes.html">Informes</a> Informes entregats al llarg del TFG</li>
+				<br>
+				<li class="folder"> <a href="./codi/codi.html">Codi</a> Codi generat per realitzar el TFG. Inclou tot el codi des de la creació del conjunt de dades fins a l'extracció dels gràfics.</li>
+				<br>
+				<li class="folder"> <a href="./Datasets/datasets.html">Conjunts de dades</a> Conjunts de dades utilitzats i el creat</li>
+				<br>
+				<li class="folder"> <a href="./img/imatges.html">Imatges</a> Gràfics, esquemes i diagrames generats al llarg del treball</li>
+			</ul>
+		</div>
+		
+		<div class="canvis">
+			<h4> Control de Canvis </h4>
+			<ul>
+				<li class="file filetxt"> <a href="./log.txt">Logs Github</a> Fitxer de commits realitzats al Github</li>
+			<ul>
+		</div>
+	</div>
+
+  </body>
+</html>
